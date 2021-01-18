@@ -51,7 +51,9 @@ table {
 /* ---------------------------------------- 
                CUSTOM STYLES
 --------------------------------------------*/
-/* Fonts */
+/* Fonts 
+Chose Roboto to make the headings stand out and chose Lora to give the website some style
+*/
 h1, h2{
 	Font-Family: 'Roboto', Sans-Serif;
 	Font-Size: 48px;
@@ -131,9 +133,14 @@ textarea{
 	height: 80px;
 	resize: none;
 }
+div.contact-form-section{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
 button{
 	border: 1px solid black;
 	border-radius: 7px;
+	padding: 8px;
 	background-color: #E0C1B3;
 }
 /* Footer */
