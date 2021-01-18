@@ -54,6 +54,7 @@ table {
 /* Fonts 
 Chose Roboto to make the headings stand out and chose Lora to give the website some style
 */
+/* Font family of Roboto for headings and nav  */
 h1, h2{
 	Font-Family: 'Roboto', Sans-Serif;
 	Font-Size: 48px;
@@ -64,6 +65,7 @@ nav{
 	font-weight: bold;
 	font-size: 20px;
 }
+/* Font family of Lora for pragraph text */
 p{
 	Font-Family: 'Lora', Serif;
 	Font-Size: 14px;
@@ -72,12 +74,14 @@ p{
     Mobile Styles
 -------------------*/
 /* Navigation */
+/* Chose #E0C1B3(Desert Sand) as a neutral color */
 .nav{
     background-color: #E0C1B3;
 	border: none;
 	padding: 2rem;
 	text-align: center;
 }
+/* To get the nav from its default state to a horizontal state */
 nav .nav-link{
 	display: block;
 	list-style-type: none;
@@ -85,6 +89,7 @@ nav .nav-link{
 	text-decoration: none;
 }
 /* unvistied, visited, hover and active states */
+/* added darker sahdes to these states so they could show up better on the webpage */
 /* univisted */
 a:link{
 	color:#C66C72;
@@ -97,14 +102,15 @@ a:visited{
 a:hover{
 	color: #C66C72;
 }
-/* focus */
+/* Focus States */
 a:active{
 	color: #7A8372;
 }
-/* Home Section (Hello) */
+/* Home Section*/
 .home{
 	padding: 10px;
 }
+/* Added  #AEB4A9 (Ash grey) to bring the users through the web page*/
 section.home{
     background-color: #AEB4A9;
 }
@@ -114,7 +120,7 @@ h1{
 	font-size: 2rem;
 }
 /* About me */
-/* Choosing  #D7989C(rose colour) to bring attention to the about me section*/
+/* Choosing  #D7989C(Pastel Pink) to bring attention to the about me section*/
 section.about{
     background-color: #D7989C;
 }
@@ -142,6 +148,7 @@ section, p{
 #contact .section-title{
 	padding-bottom: 15px;
 }
+/* Making the input feilds the same length */
 input[type="text"], input[type="email"]{ 
 	width: 95%;
 	padding-bottom: 8px;
@@ -156,6 +163,7 @@ div.contact-form-section{
 	padding-left: 10px;
 	padding-bottom: 10px;
 }
+/* Lining up the button with the input forms and textarea */
 button{
 	border: 1px solid black;
 	border-radius: 7px;
