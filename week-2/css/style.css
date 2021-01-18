@@ -62,6 +62,7 @@ h1, h2{
 nav{
 	Font-Family: 'Roboto', Sans-Serif;	
 	font-weight: bold;
+	font-size: 20px;
 }
 p{
 	Font-Family: 'Lora', Serif;
@@ -147,7 +148,7 @@ input[type="text"], input[type="email"]{
 }
 textarea{
 	box-sizing: border-box;
-	width: 100%;
+	width: 96.5%;
 	height: 80px;
 	resize: none;
 }
@@ -160,6 +161,7 @@ button{
 	border-radius: 7px;
 	padding: 8px;
 	background-color: #E0C1B3;
+	margin-left: 11px;
 }
 /* Footer */
 footer{
