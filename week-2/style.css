@@ -51,3 +51,21 @@ table {
 /* ---------------------------------------- 
                CUSTOM STYLES
 --------------------------------------------*/
+/* ----------------
+    Mobile Styles
+-------------------*/
+html{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav{
+    background-color: #E0C1B3;
+    border: none;
+}
+section.home{
+    background-color: #AEB4A9;
+}
+section .about{
+    background-color: #D89A9E;
+}
