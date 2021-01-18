@@ -69,3 +69,6 @@ section.home{
 section .about{
     background-color: #D89A9E;
 }
+.about-image{
+    width: 10%;
+}
