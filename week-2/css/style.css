@@ -93,6 +93,11 @@ section.about{
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	padding-bottom: 10px;
+}
+section, p{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 /* Contact Section */
 .contact{
