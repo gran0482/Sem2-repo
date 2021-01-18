@@ -113,9 +113,17 @@ section, p{
 #contact .section-title{
 	padding-bottom: 15px;
 }
+
+button{
+	border: 1px solid black;
+	border-radius: 7px;
+}
 /* Footer */
 footer{
 	background-color: #E0C1B3;
+}
+footer, p{
+	padding-top: 5px;
 }
 /* ----------------------
 	Desktop Styles
