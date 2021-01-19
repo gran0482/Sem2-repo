@@ -89,7 +89,7 @@ nav .nav-link{
 	text-decoration: none;
 }
 /* unvistied, visited, hover and active states */
-/* added darker sahdes to these states so they could show up better on the webpage */
+/* added darker shades to these states so they could show up better on the webpage */
 /* univisted */
 a:link{
 	color:#C66C72;
@@ -184,7 +184,7 @@ footer, p{
 /* Adding a media query to make the web-page responsive*/
 @media screen and (min-width: 760px){
 	html{
-		max-width: 1300px;
+		max-width: 1200px;
 		margin: auto;
 	}
 	nav .nav-link{
@@ -199,18 +199,21 @@ footer, p{
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(1, 1fr);
 		grid-template-areas: 
-		"one two";
+		"two one";
 	}
 	section#about.about section#about.about:nth-child(1){
 		grid-area: one;
 	}
 	section#about.about section#about.about:nth-child(2){
 		grid-area: two;
-	}
+	}   
 	/* Contact Me Section */
+	.contact .section-title{
+		text-align: center;
+	}
 	.contact p{
 		margin-left: 12%;
-		margin-right: 12%;
+		margin-right: 10%;
 	}
 	div.contact-form-section{
 		width: 75%;
