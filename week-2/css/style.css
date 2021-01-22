@@ -213,6 +213,9 @@ footer, p{
 		padding-bottom: 85px;
 	}
 	/* Contact Me Section */
+	section#contact.contact{
+		padding-bottom: 50px;
+	}
 	.contact .section-title{
 		text-align: center;
 	}
