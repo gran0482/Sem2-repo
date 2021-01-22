@@ -81,16 +81,16 @@ p{
 	padding: 2rem;
 	text-align: center;
 }
-/* To get the nav from its default state to a horizontal state */
+/* To get the nav from its default state to a vertical state */
 nav .nav-link{
 	display: block;
 	list-style-type: none;
 	padding-top: 10px;
 	text-decoration: none;
 }
-/* unvistied, visited, hover and active states */
+/* Navigation (unvistied, visited, hover and active states) */
 /* added darker shades to these states so they could show up better on the webpage */
-/* univisted */
+/* univisted link */
 a:link{
 	color:#C66C72;
 }
@@ -98,11 +98,11 @@ a:link{
 a:visited{
 	color: #7A8372;
 }
-/* Hover states */
+/* Hover state */
 a:hover{
 	color: #C66C72;
 }
-/* Focus States */
+/* Focus State */
 a:active{
 	color: #7A8372;
 }
@@ -110,7 +110,7 @@ a:active{
 .home{
 	padding: 10px;
 }
-/* Added  #AEB4A9 (Ash grey) to bring the users through the web page*/
+/* Added  #AEB4A9 (Ash grey) to guide the users through the web page*/
 section.home{
     background-color: #AEB4A9;
 }
@@ -120,10 +120,11 @@ h1{
 	font-size: 2rem;
 }
 /* About me */
-/* Choosing  #D7989C(Pastel Pink) to bring attention to the about me section*/
+/* Choosing #D7989C(Pastel Pink) to bring attention to the about me section*/
 section.about{
     background-color: #D7989C;
 }
+/* Centering both h2 and the image */
 .section-title{
 	text-align: center;
 	padding-top: 10px;
@@ -136,6 +137,7 @@ section.about{
 	width: 50%;
 	padding-bottom: 10px;
 }
+/* adding spacing between the paragraphs */
 section, p{
 	padding-left: 10px;
 	padding-right: 10px;
@@ -175,6 +177,7 @@ input[type="submit"]:hover{
 	color: #D7989C;
 }
 /* Footer */
+/* Using  #E0C1B3(Desert Sand) to end the website*/
 footer{
 	background-color: #E0C1B3;
 }
@@ -187,6 +190,7 @@ footer, p{
 /* Adding a media query to make the web-page responsive*/
 @media screen and (min-width: 760px){
 	/* General styles for html and headings */
+	/* using max width make it similar to the original page */
 	html{
 		max-width: 1200px;
 		margin: auto;
