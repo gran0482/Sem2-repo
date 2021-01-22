@@ -171,12 +171,15 @@ button{
 	background-color: #E0C1B3;
 	margin-left: 11px;
 }
+input[type="submit"]:hover{
+	color: #D7989C;
+}
 /* Footer */
 footer{
 	background-color: #E0C1B3;
 }
 footer, p{
-	padding-top: 5px;
+	padding-top: 10px;
 }
 /* ----------------------
 	Desktop Styles
@@ -202,15 +205,24 @@ footer, p{
 		padding-left: 75px;
 		padding-right: 75px;
 	}
+	/* home section */
+	.home p{
+		padding-left: 90px;
+		padding-right: 85px;
+	}
 	/* About me section */
 	/* using float to have the picture of the left and the words on the right */
 	#about.about .about-image{
 		float: left;
-		width: 15%;
-		margin-left: 100px;
+		width: 20%;
+		margin-right: 25px;
+		margin-left: 95px;
+		position: relative;
+		bottom: 45px;
 	}
 	.about p{
-		padding-bottom: 85px;
+		padding-bottom: 80px;
+		padding-right: 71px;
 	}
 	/* Contact Me Section */
 	section#contact.contact{
@@ -220,8 +232,9 @@ footer, p{
 		text-align: center;
 	}
 	.contact p{
-		margin-left: 12%;
-		margin-right: 10%;
+		padding-bottom: 25px;
+		margin-left: 7%;
+		margin-right: 7%;
 	}
 	div.contact-form-section{
 		width: 75%;
