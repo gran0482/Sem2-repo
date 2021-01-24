@@ -52,18 +52,20 @@ table {
                CUSTOM STYLES
 --------------------------------------------*/
 /* Fonts 
-Chose Roboto to make the headings stand out and chose Lora to give the website some style
+Chose Roboto to make the headings stand out and chose Lora to match Roboto
 */
 /* Font family of Roboto for headings and nav  */
 h1, h2{
 	Font-Family: 'Roboto', Sans-Serif;
-	Font-Size: 48px;
+	Font-Size: 2rem;
 	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
 }
 nav{
 	Font-Family: 'Roboto', Sans-Serif;	
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 /* Font family of Lora for pragraph text */
 p{
@@ -110,26 +112,16 @@ a:active{
 .home{
 	padding: 10px;
 }
-/* Added  #AEB4A9 (Ash grey) to guide the users through the web page*/
+/* Added #AEB4A9 (Ash grey) to guide the users through the web page*/
 section.home{
     background-color: #AEB4A9;
 }
-h1{
-	text-align: center;
-	padding-bottom: 10px;
-	font-size: 2rem;
-}
 /* About me */
-/* Choosing #D7989C(Pastel Pink) to bring attention to the about me section*/
+/* Choosing #D7989C (Pastel Pink) to bring attention to the about me section*/
 section.about{
     background-color: #D7989C;
 }
-/* Centering both h2 and the image */
-.section-title{
-	text-align: center;
-	padding-top: 10px;
-	font-size: 2rem;
-}
+/* Centering the profile image */
 .about-image{
 	display: block;
 	margin-left: auto;
@@ -144,6 +136,7 @@ section, p{
 	padding-bottom: 10px;
 }
 /* Contact Section */
+/* Added #AEB4A9 (Ash grey) to guide the users through the web page*/
 .contact{
 	background-color: #AEB4A9;
 }
@@ -161,6 +154,7 @@ textarea{
 	height: 80px;
 	resize: none;
 }
+/* adding even space between the input feilds  */
 div.contact-form-section{
 	padding-left: 10px;
 	padding-bottom: 10px;
@@ -172,9 +166,6 @@ button{
 	padding: 8px;
 	background-color: #E0C1B3;
 	margin-left: 11px;
-}
-input[type="submit"]:hover{
-	color: #D7989C;
 }
 /* Footer */
 /* Using  #E0C1B3(Desert Sand) to end the website*/
@@ -190,11 +181,12 @@ footer, p{
 /* Adding a media query to make the web-page responsive*/
 @media screen and (min-width: 760px){
 	/* General styles for html and headings */
-	/* using max width make it similar to the original page */
+	/* using max width make it similar to the original page layout */
 	html{
 		max-width: 1200px;
 		margin: auto;
 	}
+	/* Making h1 and h2 evenly spaced throughput the page */
 	.page-title{
 		padding-top: 15px;
 		padding-bottom: 25px;
@@ -210,12 +202,13 @@ footer, p{
 		padding-right: 75px;
 	}
 	/* home section */
+	/* Lining up the text with each other */
 	.home p{
 		padding-left: 90px;
 		padding-right: 85px;
 	}
 	/* About me section */
-	/* using float to have the picture of the left and the words on the right */
+	/* using float to have the picture of the left and the text on the right */
 	#about.about .about-image{
 		float: left;
 		width: 20%;
@@ -240,15 +233,13 @@ footer, p{
 		margin-left: 7%;
 		margin-right: 7%;
 	}
+	/* lining up the input feilds with each other */
 	div.contact-form-section{
 		width: 75%;
 		padding-left: 15%;
 	}
+	/* lining up the button with the input feilds  */
 	button{
 		margin-left: 15%; 
 	}
-	input[type="submit"]:hover{
-		color: #D7989C;
-	}
-	
 }
