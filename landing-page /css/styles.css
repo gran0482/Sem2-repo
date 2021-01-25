@@ -68,6 +68,7 @@ p{
     background-color: #f7f7ff;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
 }
 .dashlogo{
     width: 20%;
@@ -91,10 +92,44 @@ p{
     margin-left: auto;
     padding-bottom: 15px;
 }
+/* apply form */
 .apply-now{
     text-align: center;
     background-color: #FFFFFF;
     padding-bottom: 10px;
+    border-radius: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.apply{
+    padding: 15px;
+    font-size: 3rem;
+}
+input#checkbox{
+    position: absolute;
+    left: 176px;
+    transform: scale(1.25);
+}
+.agree{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.applied{
+    padding-top: 25px;
+}
+.button-1{
+    background-color: #57eeab;
+    border: none;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.orange-text{
+    color: #ff8480;
 }
 
 /* footer */
@@ -102,4 +137,34 @@ p{
     background-color: #fffd8c;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact-form{
+    text-align: center;
+    padding-top: 15px;
+}
+.hours-city{
+    display: flex;
+}
+.hours-city:nth-child(1){
+    flex-basis: calc(25% - 4px);
+}
+.hours-city:nth-child(2){
+    flex-basis: calc(100% - 4px);
+}
+.button-2{
+    background-color: #ff8480;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
