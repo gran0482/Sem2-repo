@@ -85,7 +85,16 @@ p{
     padding-bottom: 10px;
 }
 .scooter-image{
-    width: 15%;
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15px;
+}
+.apply-now{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
 }
 
 /* footer */
