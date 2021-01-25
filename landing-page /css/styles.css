@@ -49,3 +49,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ---------------------------------------
+        CUSTOM STYLES
+------------------------------------------*/
+/* Fonts */
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Heading and paragraphs */
+h1{
+    font-weight: bold;
+}
+p{
+    font-weight: lighter;
+}
+/* Styles */
