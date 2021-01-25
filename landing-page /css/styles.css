@@ -64,3 +64,33 @@ p{
     font-weight: lighter;
 }
 /* Styles */
+.main-background{
+    background-color: #f7f7ff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.dashlogo{
+    width: 20%;
+}
+.boss{
+    font-size: 4rem;
+    padding-bottom: 15px;
+    word-spacing: 25px;
+    text-align: left;
+    line-height: 70pt;
+}
+.start{
+    line-height: 20pt;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.scooter-image{
+    width: 15%;
+}
+
+/* footer */
+.footer{
+    background-color: #fffd8c;
+    padding-left: 30px;
+    padding-right: 30px;
+}
