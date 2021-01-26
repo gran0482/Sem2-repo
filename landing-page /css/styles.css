@@ -291,4 +291,44 @@ input#city{
         padding-right: 200px;
     }
 }
-@media screen and (min-width: 1920px){
+@media screen and (max-width: 1920px){
+    .dashlogo{
+        width: 8%;
+    }
+    .scooter-image{
+        width: 45%;
+    }
+    .boss-scooter-form{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* bottom contact form */
+    .contact-form{
+        display: flex;
+        justify-content: flex-start;
+    }
+    input#hours{
+        width: 50%;
+        position: relative;
+        bottom: 30px;
+        right: 23px;
+    }
+    input#city{
+        width: 100%;
+        position: relative;
+        top: 3px;
+        right: 140px;
+    }
+    .button-2{
+        padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+        left: 25px;
+    } 
+    .footer-logo{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 35px;
+    }
+}
