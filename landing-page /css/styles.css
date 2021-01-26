@@ -229,8 +229,11 @@ input#city{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .dashlogo{
+        width: 15%;
+    }
     .scooter-image{
-        width: 45%;
+        width: 65%;
         padding-bottom: 25px;
     }
     /* form */
@@ -240,5 +243,44 @@ input#city{
     .enter{
         font-size: 25px;
     }
+    input#text-feild{
+        width: 90%;
+    }
+    .button-1{
+        padding-bottom: 10px;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    a{
+        padding-top: 15px;
+        padding-left: 5px;
+    }
+    .application{
+        display: flex;
+        padding-left: 75px;
+    }
+    /* footer form */
+    .contact-form{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    input#hours{
+        width: 35%;
+        position: relative;
+        bottom: 30px;
+    }
+    input#city{
+        width: 75%;
+        position: relative;
+        top: 3px;
+        right: 190px;
+    }
+    .button-2{
+        padding-left: 25px;
+        padding-right: 25px;
+        position: relative;
+        right: 100px;
+    }
+
 
 }
