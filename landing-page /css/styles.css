@@ -225,7 +225,6 @@ input#city{
 --------------------------------------------*/
 @media screen and (min-width: 768px){
     html{
-        max-width: 768px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -260,20 +259,24 @@ input#city{
         padding-left: 75px;
     }
     /* footer form */
+    .earnings{
+        padding-left: 80px;
+    }
     .contact-form{
         display: flex;
         justify-content: space-evenly;
     }
     input#hours{
-        width: 35%;
+        width: 50%;
         position: relative;
         bottom: 30px;
+        right: 78px;
     }
     input#city{
-        width: 75%;
+        width: 100%;
         position: relative;
         top: 3px;
-        right: 190px;
+        right: 245px;
     }
     .button-2{
         padding-left: 25px;
@@ -281,6 +284,11 @@ input#city{
         position: relative;
         right: 100px;
     }
-
-
+    .footer-logo{
+        display: flex;
+        align-content: space-evenly;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
 }
+@media screen and (min-width: 1920px){
