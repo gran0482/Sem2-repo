@@ -64,6 +64,7 @@ p{
     font-weight: lighter;
 }
 /* Styles */
+@media screen and (min-width: 375px){
 .main-background{
     background-color: #f7f7ff;
     padding-left: 30px;
@@ -219,6 +220,7 @@ input#city{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
 }
 /* ------------------------------------------
             TABLET STYLES
