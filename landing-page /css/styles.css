@@ -125,15 +125,22 @@ div.input-feilds{
 .apply{
     padding: 15px;
     font-size: 3rem;
+    display: flex;
+    padding-left: 25px;
 }
-input#checkbox{
-    position: absolute;
-    left: 176px;
-    transform: scale(1.25);
+.enter{
+    display: flex;
+    padding-left: 25px;
 }
 .agree{
+    display: flex;
+    justify-content: left;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 25px;  
+}
+input#checkbox{
+    transform: scale(1.25);
 }
 .applied{
     padding-top: 15px;
@@ -147,8 +154,8 @@ input#checkbox{
     font-size: 2rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 10px;
     font-weight: 500;
 }
@@ -212,4 +219,26 @@ input#city{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
+/* ------------------------------------------
+            TABLET STYLES
+--------------------------------------------*/
+@media screen and (min-width: 768px){
+    html{
+        max-width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .scooter-image{
+        width: 45%;
+        padding-bottom: 25px;
+    }
+    /* form */
+    .apply{
+        font-size: 2rem;
+    }
+    .enter{
+        font-size: 25px;
+    }
+
 }
