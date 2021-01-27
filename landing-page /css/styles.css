@@ -289,16 +289,39 @@ input#city{
         padding-right: 200px;
     }
 }
-@media screen and (max-width: 1920px){
+@media screen and (min-width: 1920px){
+    .dashlogo, .own-boss{
+        padding-left: 60px;
+    }
     .dashlogo{
-        width: 8%;
+        width: 5%;
     }
     .scooter-image{
-        width: 45%;
+        width: 65%;
+        position: relative;
+        left: 100px;
     }
     .boss-scooter-form{
         display: flex;
         justify-content: space-between;
+    }
+    section.apply-now{
+        width: 100%;
+        position: relative;
+    }
+    .own-boss{
+        padding-top: 75px;
+    }
+    .form{
+        padding-right: 50px;
+        padding-left: 15px;
+    }
+    input#text-feild{
+        width: 95%;
+    }
+    .button-1{
+        padding-left: 130px;
+        padding-right: 130px;
     }
     /* bottom contact form */
     .contact-form{
@@ -325,8 +348,11 @@ input#city{
     } 
     .footer-logo{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-evenly;
+        padding-right: 600px;
+        padding-left: 700px;
         position: relative;
-        bottom: 35px;
+        bottom: 45px;
+        left: 600px;
     }
 }
