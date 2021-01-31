@@ -80,11 +80,10 @@ p{
 }
 /* Setting the font size for the introduction */
 .boss{
-    font-size: 4rem;
-    padding-bottom: 15px;
-    word-spacing: 25px;
+    font-size: 3rem;
+    word-spacing: 10px;
     text-align: left;
-    line-height: 70pt;
+    line-height: 50pt;
 }
 /* adjusting line height */
 .start{
