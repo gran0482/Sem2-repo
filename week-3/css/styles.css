@@ -67,15 +67,18 @@ p{
         Mobile Styles
  ---------------------------*/
 @media screen and (min-width: 375px){
+    /* main background colour and adding padding */
 .main-background{
     background-color: #f7f7ff;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
 }
+/* Sizing the dash logo */
 .dashlogo{
     width: 20%;
 }
+/* Setting the font size for the introduction */
 .boss{
     font-size: 4rem;
     padding-bottom: 15px;
@@ -83,11 +86,13 @@ p{
     text-align: left;
     line-height: 70pt;
 }
+/* adjusting line height */
 .start{
     line-height: 20pt;
     font-size: 1.5rem;
     padding-bottom: 10px;
 }
+/* adjusting the size of the scooter image */
 .scooter-image{
     width: 95%;
     display: block;
@@ -142,6 +147,7 @@ div.input-feilds{
     padding-bottom: 10px;
     padding-left: 25px;  
 }
+/* adjusting the size of the checkbox */
 input#checkbox{
     transform: scale(1.25);
 }
@@ -151,6 +157,7 @@ input#checkbox{
 .application{
     padding-bottom: 10px;
 }
+/* making the button green and making the text centered */
 .button-1{
     background-color: #57eeab;
     border: none;
@@ -165,6 +172,7 @@ input#checkbox{
 .orange-text{
     color: #ff8480;
 }
+/* adding a drop shadow on the apply now form */
 .apply-now{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
 }
@@ -192,6 +200,7 @@ input#checkbox{
     left: 160px;
     bottom: 3px;
 }
+/* adjusting the length of the input feilds */
 input#hours{
     width: 7%;
     border: none;
@@ -208,6 +217,7 @@ input#city{
     padding-left: 5px;
     padding: 8px;
 }
+/* adjusting the length and size of the bottom button */
 .button-2{
     background-color: #ff8480;
     border: none;
@@ -218,6 +228,7 @@ input#city{
     padding-left: 100px;
     padding-right: 100px;
 }
+/* ajdusting the social media links  */
 .footer-logo{
     display: flex;
     justify-content: space-around;
@@ -228,6 +239,7 @@ input#city{
             TABLET STYLES
 --------------------------------------------*/
 @media screen and (min-width: 768px){
+    /* adjusting the size of the dash logo */
     .dashlogo{
         width: 15%;
     }
@@ -242,9 +254,11 @@ input#city{
     .enter{
         font-size: 25px;
     }
+    /* adjusting the input feild for tablet styles */
     input#text-feild{
         width: 90%;
     }
+    /* adjusting the button so it fits inside the form */
     .button-1{
         padding-bottom: 10px;
         padding-left: 130px;
@@ -266,6 +280,7 @@ input#city{
         display: flex;
         justify-content: space-evenly;
     }
+    /* adjusting the length of the hours, city and button */
     input#hours{
         width: 50%;
         position: relative;
@@ -284,6 +299,7 @@ input#city{
         position: relative;
         right: 150px;
     }
+    /* spacing evenly the social media icons */
     .footer-logo{
         display: flex;
         align-content: space-evenly;
@@ -291,23 +307,29 @@ input#city{
         padding-right: 200px;
     }
 }
-/* desktop styles */
+/*------------------------
+    Desktop styles
+ ------------------------*/
 @media screen and (min-width: 850px){
+    /* adjusting the padding of the logo and width */
     .dashlogo, .own-boss{
         padding-left: 60px;
     }
     .dashlogo{
         width: 5%;
     }
+    /* sizing the scooter image */
     .scooter-image{
         width: 65%;
         position: relative;
         left: 100px;
     }
+    /* making the text, scooter image and form be in a line */
     .boss-scooter-form{
         display: flex;
         justify-content: space-between;
     }
+    /* apply now section */
     section.apply-now{
         width: 100%;
         position: relative;
@@ -315,6 +337,7 @@ input#city{
     .own-boss{
         padding-top: 75px;
     }
+    /* adjusting the text feilds so they are inside the white area */
     .form{
         padding-right: 50px;
         padding-left: 15px;
@@ -323,14 +346,15 @@ input#city{
         width: 95%;
     }
     .button-1{
-        padding-left: 130px;
-        padding-right: 130px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
     /* bottom contact form */
     .contact-form{
         display: flex;
         justify-content: flex-start;
     }
+    /* adjusting the length and size of the input and button feilds */
     input#hours{
         width: 50%;
         position: relative;
@@ -349,6 +373,7 @@ input#city{
         position: relative;
         left: 25px;
     } 
+    /* pushing the social media icons to the right side */
     .footer-logo{
         display: flex;
         justify-content: space-evenly;
