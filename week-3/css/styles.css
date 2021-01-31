@@ -52,18 +52,20 @@ table {
 /* ---------------------------------------
         CUSTOM STYLES
 ------------------------------------------*/
-/* Fonts */
+/* Fonts set for the whole html page*/
 html{
     font-family: 'Montserrat', sans-serif;
 }
-/* Heading and paragraphs */
+/* Heading and paragraphs fonts */
 h1{
     font-weight: bold;
 }
 p{
     font-weight: lighter;
 }
-/* Styles */
+/*-------------------------
+        Mobile Styles
+ ---------------------------*/
 @media screen and (min-width: 375px){
 .main-background{
     background-color: #f7f7ff;
@@ -290,7 +292,7 @@ input#city{
     }
 }
 /* desktop styles */
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 850px){
     .dashlogo, .own-boss{
         padding-left: 60px;
     }
