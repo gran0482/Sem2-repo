@@ -241,6 +241,9 @@ input#city{
     padding-left: 75px;
     padding-right: 75px;
 }
+.facebook-logo{
+    border-radius: 20px;
+}
 }
 /* ------------------------------------------
             TABLET STYLES
@@ -249,10 +252,14 @@ input#city{
     /* adjusting the size of the dash logo */
     .dashlogo{
         width: 15%;
-        padding-left: 65px;
+        padding-left: 70px;
+    }
+    .own-boss{
+        padding-left: 75px;
+        padding-right: 60px;
     }
     .scooter-image{
-        width: 65%;
+        width: 60%;
         padding-bottom: 25px;
     }
     /* form */
@@ -269,8 +276,8 @@ input#city{
     /* adjusting the button so it fits inside the form */
     .button-1{
         padding-bottom: 10px;
-        padding-left: 130px;
-        padding-right: 130px;
+        padding-left: 175px;
+        padding-right: 175px;
     }
     a{
         padding-top: 15px;
@@ -279,6 +286,10 @@ input#city{
     .application{
         display: flex;
         padding-left: 75px;
+    }
+    .orange-text{
+        padding-top: 15px;
+        padding-left: 55px
     }
     /* footer form */
     .earnings{
@@ -290,22 +301,22 @@ input#city{
     }
     /* adjusting the length of the hours, city and button */
     input#hours{
-        width: 50%;
+        width: 67%;
         position: relative;
         bottom: 30px;
-        right: 78px;
+        right: 90px;
     }
     input#city{
         width: 100%;
         position: relative;
         top: 3px;
-        right: 255px;
+        right: 245px;
     }
     .button-2{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
         position: relative;
-        right: 150px;
+        right: 145px;
     }
     /* spacing evenly the social media icons */
     .footer-logo{
@@ -313,6 +324,9 @@ input#city{
         align-content: space-evenly;
         padding-left: 200px;
         padding-right: 200px;
+    }
+    .facebook-logo{
+        border-radius: 20px;
     }
 }
 /*------------------------
