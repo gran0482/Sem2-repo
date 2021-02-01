@@ -108,6 +108,9 @@ p{
     margin-left: 75px;
     margin-right: 75px;
 }
+.started{
+    display: none;
+}
 .input-feilds{
     padding-top: 5px;
     width: 100%;
@@ -263,6 +266,9 @@ input#city{
         padding-bottom: 25px;
     }
     /* form */
+    .started{
+        display: none;
+    }
     .apply{
         font-size: 2rem;
     }
@@ -334,11 +340,13 @@ input#city{
  ------------------------*/
 @media screen and (min-width: 850px){
     /* adjusting the padding of the logo and width */
-    .dashlogo, .own-boss{
-        padding-left: 60px;
-    }
     .dashlogo{
         width: 5%;
+        padding-left: 60px;
+    }
+    div.own-boss{
+        padding-left: 60px;
+        width: 100%;
     }
     /* sizing the scooter image */
     .scooter-image{
@@ -352,6 +360,13 @@ input#city{
         justify-content: space-between;
     }
     /* apply now section */
+    .started{
+        display: block;
+        font-size: 20px;
+        position: relative;
+        left: 100px;
+        bottom: 22px;
+    }
     section.apply-now{
         width: 100%;
         position: relative;
@@ -365,11 +380,11 @@ input#city{
         padding-left: 15px;
     }
     input#text-feild{
-        width: 95%;
+        width: 100%;
     }
     .button-1{
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 125px;
+        padding-right: 125px;
     }
     /* bottom contact form */
     .contact-form{
@@ -404,5 +419,14 @@ input#city{
         position: relative;
         bottom: 45px;
         left: 600px;
+    }
+    .facebook-logo{
+        border-radius: 0;
+        display: flex;
+        order: 3;
+    }
+    .linkedin-logo{
+        display: flex;
+        order: 4;
     }
 }
