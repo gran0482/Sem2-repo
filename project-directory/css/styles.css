@@ -348,6 +348,9 @@ input#city{
     .facebook-logo{
         border-radius: 20px;
     }
+    .twitter{
+        filter: invert(100%);
+    }
 }
 /*------------------------
     Desktop styles
