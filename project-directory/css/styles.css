@@ -279,7 +279,7 @@ input#city{
         width: 60%;
         padding-bottom: 25px;
     }
-    /* form */
+    /* apply now form and setting the font sizes */
     .started{
         display: none;
     }
@@ -366,12 +366,13 @@ input#city{
     .scooter-image{
         width: 65%;
         position: relative;
-        left: 100px;
+        right: 400px;
     }
     /* making the text, scooter image and form be in a line (horizontally) */
     .boss-scooter-form{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction: row;
     }
     /* apply now section */
     .started{
@@ -382,8 +383,9 @@ input#city{
         bottom: 22px;
     }
     section.apply-now{
-        width: 100%;
-        position: relative;
+        width: 25%;
+        position: absolute;
+        right: 10px;
     }
     .own-boss{
         padding-top: 75px;
@@ -396,9 +398,9 @@ input#city{
     input#text-feild{
         width: 100%;
     }
-    .button-1{
-        padding-left: 125px;
-        padding-right: 125px;
+    input.button-1{
+        padding-left: 100px;
+        padding-right: 100px;
     }
     /* bottom contact form */
     .contact-form{
