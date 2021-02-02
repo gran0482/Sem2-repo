@@ -261,6 +261,9 @@ input#city{
 .facebook-logo{
     border-radius: 20px;
 }
+.twitter{
+    filter: invert(60%);    
+}
 }
 /* ------------------------------------------
             TABLET STYLES
