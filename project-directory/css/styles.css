@@ -77,13 +77,19 @@ p{
 /* Sizing the dash logo */
 .dashlogo{
     width: 20%;
+    padding-left: 70px;
 }
 /* Setting the font size for the introduction */
 .boss{
     font-size: 3rem;
-    word-spacing: 10px;
+    word-spacing: 2px;
     text-align: left;
     line-height: 50pt;
+}
+/* setting the padding for the text to line up with the form */
+.own-boss{
+    padding-left: 75px;
+    padding-right: 70px;
 }
 /* adjusting line height */
 .start{
@@ -93,7 +99,7 @@ p{
 }
 /* adjusting the size of the scooter image */
 .scooter-image{
-    width: 95%;
+    width: 75%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -116,18 +122,26 @@ p{
     width: 100%;
     border: none;
 }
+/* adjusting the form to look like the provided mockup */
 input#text-feild{
     width: 85%;
     border: none;
     background-color: #F4F4F5;
     padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+    font-size: 18px;
+    color: grey;
 }
+/* input feilds for form and adjusting size of them */
 div.input-feilds{
     padding-bottom: 10px;
+}
+/* adding space inbetween each text feild */
+.feilds{
+    margin-bottom: 10px;
 }
 .apply{
     padding: 15px;
