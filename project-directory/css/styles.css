@@ -199,6 +199,10 @@ input#checkbox{
 .apply-now{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
 }
+.apply{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
 /* footer */
 .footer{
     background-color: #fffd8c;
@@ -289,6 +293,10 @@ input#city{
         padding-left: 75px;
         padding-right: 60px;
     }
+    .boss{
+        font-size: 4rem;
+        padding-bottom: 60px;
+    }
     .scooter-image{
         width: 60%;
         padding-bottom: 25px;
@@ -299,6 +307,7 @@ input#city{
     }
     .apply{
         font-size: 2rem;
+        font-weight: bold;
     }
     .enter{
         font-size: 25px;
@@ -350,13 +359,17 @@ input#city{
     }
     div.own-boss{
         padding-left: 60px;
-        width: 100%;
+        width: 25%;
+    }
+    .boss{
+        font-size: 4rem;
+        padding-bottom: 60px;
     }
     /* sizing the scooter image */
     .scooter-image{
         width: 65%;
         position: relative;
-        right: 400px;
+        right: 300px;
     }
     /* making the text, scooter image and form be in a line (horizontally) */
     .boss-scooter-form{
