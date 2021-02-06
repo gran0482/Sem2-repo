@@ -114,8 +114,12 @@ p{
     margin-left: 75px;
     margin-right: 75px;
 }
-.started{
-    display: none;
+.sentence-1{
+    text-align: left;
+    padding-left: 23px;
+}
+.sentence-2{
+    visibility: hidden;
 }
 .input-feilds{
     padding-top: 5px;
@@ -305,12 +309,7 @@ input#city{
     /* adjusting the button so it fits inside the form */
     .button-1{
         padding-bottom: 10px;
-        padding-left: 175px;
-        padding-right: 175px;
-    }
-    .application{
-        display: flex;
-        padding-left: 75px;
+        width: 90%;
     }
     /* footer form */
     .earnings{
@@ -365,13 +364,6 @@ input#city{
         flex-direction: row;
     }
     /* apply now section */
-    .started{
-        display: block;
-        font-size: 20px;
-        position: relative;
-        left: 100px;
-        bottom: 22px;
-    }
      section.apply-now{
         width: 25%;
         position: absolute;
@@ -380,17 +372,28 @@ input#city{
     .own-boss{
         padding-top: 75px;
     }
+    .sentence-2{
+        visibility: visible;
+        text-align: left;
+        padding-left: 23px;
+    }
+    .sentence-1{
+        visibility: hidden;
+    }
+    /* yo add padding inbetween the second sentence */
+    form.form{
+        padding-top: 15px;
+    } 
     /* adjusting the text feilds so they are inside the white area */
     .form{
-        padding-right: 50px;
+        padding-right: 20px;
         padding-left: 15px;
     }
     input#text-feild{
         width: 100%;
     }
-    input.button-1{
-        padding-left: 100px;
-        padding-right: 100px;
+    .button-1{
+        width: 100%;
     }
     /* pushing the social media icons to the right side */
     .footer-logo{
