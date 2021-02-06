@@ -169,6 +169,10 @@ input#checkbox{
 }
 .application{
     padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 25px;
 }
 /* making the button green and making the text centered */
 .button-1{
@@ -182,8 +186,9 @@ input#checkbox{
     border-radius: 10px;
     font-weight: 500;
 }
-.orange-text{
+.application-status{
     color: #ff8480;
+    text-decoration: none;
 }
 /* adding a drop shadow on the apply now form */
 .apply-now{
@@ -199,6 +204,8 @@ input#checkbox{
 }
 h3{
     padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 .earnings{
     padding-left: 80px;
@@ -209,26 +216,29 @@ h3{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.hours{
+ .hours{
     display: flex;
     position: relative;
-    left: 100px;
-    top: 30px;
+    left: 90px;
+    bottom: 30px;
+    top: 6px;
 }
 .city{
     display: flex;
     position: relative;
-    left: 160px;
-    bottom: 3px;
-}
+    left: 170px;
+    bottom: 30px;
+} 
 /* adjusting the length of the input feilds */
 input#hours{
-    width: 7%;
+    width: 10%;
     border: none;
     background-color: #F4F4F5;
     border-radius: 5px;
     padding-left: 5px;
     padding: 8px;
+    font-size: 13px;
+    color: grey;
 }
 input#city{
     width: 45%;
@@ -237,6 +247,8 @@ input#city{
     border-radius: 5px;
     padding-left: 5px;
     padding: 8px;
+    font-size: 13px;
+    color: grey;
 }
 /* adjusting the length and size of the bottom button */
 .button-2{
@@ -248,6 +260,8 @@ input#city{
     border-radius: 10px;
     padding-left: 100px;
     padding-right: 100px;
+    position: relative;
+    bottom: 25px;
 }
 /* ajdusting the social media links  */
 .footer-logo{
@@ -262,7 +276,8 @@ input#city{
     border-radius: 20px;
 }
 .twitter{
-    filter: invert(60%);    
+    fill: #ff8480;
+    fill-opacity: 0;  
 }
 }
 /* ------------------------------------------
@@ -302,17 +317,9 @@ input#city{
         padding-left: 175px;
         padding-right: 175px;
     }
-    a{
-        padding-top: 15px;
-        padding-left: 5px;
-    }
     .application{
         display: flex;
         padding-left: 75px;
-    }
-    .orange-text{
-        padding-top: 15px;
-        padding-left: 55px
     }
     /* footer form */
     .earnings{
@@ -320,27 +327,20 @@ input#city{
     }
     .contact-form{
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
     }
     /* adjusting the length of the hours, city and button */
-    input#hours{
-        width: 67%;
-        position: relative;
-        bottom: 30px;
-        right: 90px;
+     input#hours{
+        width: 50%;
     }
     input#city{
         width: 100%;
-        position: relative;
-        top: 3px;
-        right: 245px;
     }
     .button-2{
         padding-left: 30px;
         padding-right: 30px;
-        position: relative;
-        right: 145px;
-    }
+    }  
     /* spacing evenly the social media icons */
     .footer-logo{
         display: flex;
@@ -350,9 +350,6 @@ input#city{
     }
     .facebook-logo{
         border-radius: 20px;
-    }
-    .twitter{
-        filter: invert(100%);
     }
 }
 /*------------------------
