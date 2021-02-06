@@ -125,9 +125,10 @@ p{
     padding-top: 5px;
     width: 100%;
     border: none;
+   
 }
 /* adjusting the form to look like the provided mockup */
-input#text-feild{
+input[type=text]{
     width: 85%;
     border: none;
     background-color: #F4F4F5;
@@ -138,7 +139,7 @@ input#text-feild{
     padding-left: 10px;
     font-size: 18px;
     color: grey;
-}
+} 
 /* input feilds for form and adjusting size of them */
 div.input-feilds{
     padding-bottom: 10px;
@@ -302,14 +303,13 @@ input#city{
     .enter{
         font-size: 25px;
     }
-    /* adjusting the input feild for tablet styles */
-    input#text-feild{
-        width: 90%;
+    input[type=text]{
+        width: 92%;
     }
     /* adjusting the button so it fits inside the form */
     .button-1{
         padding-bottom: 10px;
-        width: 90%;
+        width: 92%;
     }
     /* footer form */
     .earnings{
@@ -324,6 +324,7 @@ input#city{
         padding-left: 30px;
         padding-right: 30px;
     }  
+    /* adding padding the the left of the button */
     .calculate-button{
         padding-left: 5px;
     }
@@ -380,7 +381,10 @@ input#city{
     .sentence-1{
         visibility: hidden;
     }
-    /* yo add padding inbetween the second sentence */
+    input[type=text]{
+        width: 94%;
+    }
+    /* to add padding inbetween the second sentence */
     form.form{
         padding-top: 15px;
     } 
@@ -393,7 +397,7 @@ input#city{
         width: 100%;
     }
     .button-1{
-        width: 100%;
+        width: 94%;
     }
     /* pushing the social media icons to the right side */
     .footer-logo{
