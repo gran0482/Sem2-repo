@@ -210,28 +210,21 @@ h3{
 .earnings{
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 10px;
 }
-.contact-form{
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.hours-calc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 80px;
+    padding-right: 80px;
 }
  .hours{
-    display: flex;
-    position: relative;
-    left: 90px;
-    bottom: 30px;
-    top: 6px;
+    padding-right: 10px;
 }
-.city{
-    display: flex;
-    position: relative;
-    left: 170px;
-    bottom: 30px;
-} 
 /* adjusting the length of the input feilds */
 input#hours{
-    width: 10%;
+    width: 75px;
     border: none;
     background-color: #F4F4F5;
     border-radius: 5px;
@@ -241,7 +234,7 @@ input#hours{
     color: grey;
 }
 input#city{
-    width: 45%;
+    width: 237px;
     border: none;
     background-color: #F4F4F5;
     border-radius: 5px;
@@ -258,10 +251,8 @@ input#city{
     font-weight: 700;
     font-size: 1.5rem;
     border-radius: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    position: relative;
-    bottom: 25px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 /* ajdusting the social media links  */
 .footer-logo{
@@ -330,17 +321,13 @@ input#city{
         flex-direction: row;
         justify-content: space-evenly;
     }
-    /* adjusting the length of the hours, city and button */
-     input#hours{
-        width: 50%;
-    }
-    input#city{
-        width: 100%;
-    }
     .button-2{
         padding-left: 30px;
         padding-right: 30px;
     }  
+    .calculate-button{
+        padding-left: 5px;
+    }
     /* spacing evenly the social media icons */
     .footer-logo{
         display: flex;
@@ -385,11 +372,11 @@ input#city{
         left: 100px;
         bottom: 22px;
     }
-    section.apply-now{
+     section.apply-now{
         width: 25%;
         position: absolute;
         right: 10px;
-    }
+    } 
     .own-boss{
         padding-top: 75px;
     }
@@ -405,30 +392,6 @@ input#city{
         padding-left: 100px;
         padding-right: 100px;
     }
-    /* bottom contact form */
-    .contact-form{
-        display: flex;
-        justify-content: flex-start;
-    }
-    /* adjusting the length and size of the input and button feilds */
-    input#hours{
-        width: 50%;
-        position: relative;
-        bottom: 30px;
-        right: 23px;
-    }
-    input#city{
-        width: 100%;
-        position: relative;
-        top: 3px;
-        right: 140px;
-    }
-    .button-2{
-        padding-left: 25px;
-        padding-right: 25px;
-        position: relative;
-        left: 25px;
-    } 
     /* pushing the social media icons to the right side */
     .footer-logo{
         display: flex;
