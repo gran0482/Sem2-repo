@@ -236,7 +236,7 @@ h3{
 }
 /* adjusting the length of the input feilds for hour and city*/
 input#hours{
-    width: 75px;
+    width: 70px;
     border: none;
     background-color: #F4F4F5;
     border-radius: 5px;
@@ -246,7 +246,7 @@ input#hours{
     color: grey;
 }
 input#city{
-    width: 237px;
+    width: 230px;
     border: none;
     background-color: #F4F4F5;
     border-radius: 5px;
