@@ -56,7 +56,7 @@ table {
 html{
     font-family: 'Montserrat', sans-serif;
 }
-/* Heading and paragraphs fonts */
+/* Heading and paragraphs fonts  for the entire document*/
 h1{
     font-weight: bold;
 }
@@ -67,7 +67,7 @@ p{
         Mobile Styles
  ---------------------------*/
 @media screen and (min-width: 375px){
-    /* main background colour and adding padding */
+ /* main background colour and adding padding */
 .main-background{
     background-color: #f7f7ff;
     padding-left: 30px;
@@ -114,6 +114,7 @@ p{
     margin-left: 75px;
     margin-right: 75px;
 }
+/* Hiding and unhiding the the sentences (desktop vs tablet and mobile) */
 .sentence-1{
     text-align: left;
     padding-left: 23px;
@@ -121,11 +122,11 @@ p{
 .sentence-2{
     visibility: hidden;
 }
+/* Input feilds for the apply now form */
 .input-feilds{
     padding-top: 5px;
     width: 100%;
-    border: none;
-   
+    border: none; 
 }
 /* adjusting the form to look like the provided mockup */
 input[type=text]{
@@ -148,16 +149,14 @@ div.input-feilds{
 .feilds{
     margin-bottom: 10px;
 }
+/* class for the h2 */
 .apply{
     padding: 15px;
     font-size: 3rem;
     display: flex;
     padding-left: 25px;
 }
-.enter{
-    display: flex;
-    padding-left: 25px;
-}
+/* check box class */
 .agree{
     display: flex;
     justify-content: left;
@@ -169,6 +168,7 @@ div.input-feilds{
 input#checkbox{
     transform: scale(1.25);
 }
+/* text below the button */
 .applied{
     padding-top: 15px;
 }
@@ -178,6 +178,10 @@ input#checkbox{
     flex-wrap: wrap;
     text-align: left;
     padding-left: 25px;
+}
+.application-status{
+    color: #ff8480;
+    text-decoration: none;
 }
 /* making the button green and making the text centered */
 .button-1{
@@ -191,19 +195,16 @@ input#checkbox{
     border-radius: 10px;
     font-weight: 500;
 }
-.application-status{
-    color: #ff8480;
-    text-decoration: none;
-}
 /* adding a drop shadow on the apply now form */
 .apply-now{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8);
 }
+/* h2 "Apply Now" */
 .apply{
     font-weight: bold;
     font-size: 2.3rem;
 }
-/* footer */
+/* footer background and padding*/
 .footer{
     background-color: #fffd8c;
     padding-left: 30px;
@@ -211,16 +212,19 @@ input#checkbox{
     padding-top: 15px;
     padding-bottom: 10px;
 }
+/* "See how much you can earn with dash" */
 h3{
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 1.1rem;
 }
+/* class for earn and hourse this week text */
 .earnings{
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 10px;
 }
+/* calculate button */
 .hours-calc{
     display: flex;
     flex-wrap: wrap;
@@ -231,7 +235,7 @@ h3{
  .hours{
     padding-right: 10px;
 }
-/* adjusting the length of the input feilds */
+/* adjusting the length of the input feilds for hour and city*/
 input#hours{
     width: 75px;
     border: none;
@@ -275,10 +279,6 @@ input#city{
 .facebook-logo{
     border-radius: 20px;
 }
-.twitter{
-    fill: #ff8480;
-    fill-opacity: 0;  
-}
 }
 /* ------------------------------------------
             TABLET STYLES
@@ -289,6 +289,7 @@ input#city{
         width: 15%;
         padding-left: 70px;
     }
+    /* adding padding for the main text */
     .own-boss{
         padding-left: 75px;
         padding-right: 60px;
@@ -297,6 +298,7 @@ input#city{
         font-size: 4rem;
         padding-bottom: 60px;
     }
+    /* adjsuting the size of the scooter image */
     .scooter-image{
         width: 60%;
         padding-bottom: 25px;
@@ -312,6 +314,7 @@ input#city{
     .enter{
         font-size: 25px;
     }
+    /* input feilds for the apply now form */
     input[type=text]{
         width: 92%;
     }
@@ -324,6 +327,7 @@ input#city{
     .earnings{
         padding-left: 80px;
     }
+    /* Spacing evenly the footer form */
     .contact-form{
         display: flex;
         flex-direction: row;
@@ -357,6 +361,7 @@ input#city{
         width: 5%;
         padding-left: 60px;
     }
+    /* adding padding for the desktop styles */
     div.own-boss{
         padding-left: 60px;
         width: 25%;
@@ -386,6 +391,7 @@ input#city{
     .own-boss{
         padding-top: 75px;
     }
+    /* make sentence 2 visible and hiding sentence 1 */
     .sentence-2{
         visibility: visible;
         text-align: left;
@@ -394,6 +400,7 @@ input#city{
     .sentence-1{
         visibility: hidden;
     }
+    /* input feild for apply now form */
     input[type=text]{
         width: 94%;
     }
@@ -422,6 +429,7 @@ input#city{
         bottom: 45px;
         left: 600px;
     }
+    /* re-ording the logos to match the specified mockup */
     .facebook-logo{
         border-radius: 0;
         display: flex;
