@@ -56,7 +56,7 @@ table {
 html{
     font-family: 'Montserrat', sans-serif;
 }
-/* Heading and paragraphs fonts  for the entire document*/
+/* Heading and paragraphs fonts for the entire document*/
 h1{
     font-weight: bold;
 }
@@ -168,7 +168,7 @@ div.input-feilds{
 input#checkbox{
     transform: scale(1.25);
 }
-/* text below the button */
+/* text below the button "already applied"*/
 .applied{
     padding-top: 15px;
 }
@@ -190,8 +190,7 @@ input#checkbox{
     font-size: 2rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 85%;
     border-radius: 10px;
     font-weight: 500;
 }
@@ -218,7 +217,7 @@ h3{
     font-weight: bold;
     font-size: 1.1rem;
 }
-/* class for earn and hourse this week text */
+/* class for earn and hours this week text */
 .earnings{
     padding-left: 80px;
     padding-right: 80px;
@@ -303,7 +302,7 @@ input#city{
         width: 60%;
         padding-bottom: 25px;
     }
-    /* apply now form and setting the font sizes */
+    /* apply now form and setting the font sizes and weight */
     .started{
         display: none;
     }
