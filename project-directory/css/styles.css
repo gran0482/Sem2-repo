@@ -334,8 +334,9 @@ input#city{
         justify-content: space-evenly;
     }
     .button-2{
-        padding-left: 30px;
-        padding-right: 30px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
     }  
     /* adding padding the the left of the button */
     .calculate-button{
