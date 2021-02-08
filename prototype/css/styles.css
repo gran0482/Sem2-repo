@@ -213,8 +213,12 @@ h1{
 	background-color: #74B3CE;
 	padding: 50px;
 }
+/* adding a margin property to have the images be single */
 .team{
 	background-color: #D7C0D8;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
 }
 h4{
 	text-align: center;
