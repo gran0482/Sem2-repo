@@ -49,6 +49,17 @@ table {
 /*------------------------------------------
         Custom styles
 -------------------------------------------*/
+/* Font for nav */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* font for h1 */
+h1{
+	font-family: 'Sansita Swashed', cursive;
+}
+/* font for the navigation */
+a, .quote{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /* -----------------------------
 	Mobile Styles - Home
 -------------------------------*/
@@ -56,8 +67,9 @@ table {
 	background-color: #74B3CE;
 }
 .logo{
-	max-width: 100%;
+	width: 75%;
 	height: auto;
+	padding-left: 60px;
 }
 .logo-2{
 	max-width: 100%;
@@ -66,10 +78,30 @@ table {
 }
 a{
 	text-decoration: none;
+	font-weight: bold;
 	display: block;
 	text-align: center;
 	font-size: 3rem;
 	padding-bottom: 30px;
+	color: #0B7A75;
+}
+.navigation{
+	position: relative;
+	bottom: 750px;
+}
+h1{
+	font-size: 5rem;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	color: white
+}
+.welcome-text{
+	position: relative;
+	top: 250px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
 }
 .tropical-image{
 	max-width: 100%;
@@ -103,17 +135,30 @@ button{
 	background-color: #74B3CE;
 }
 .civilian{
-	max-width: 50%;
+	max-width: 100%;
 	height: auto;
-	padding-top: 50px;
-	padding-left: 100px;
-	padding-bottom: 10px;
+	border-radius: 85%;
+	border: 15px solid #D7C0D8;
+	transform: scale(0.6);
+	position: relative;
+	bottom: 75px;
 }
 .quote{
 	color: white;
 	padding-bottom: 25px;
 	padding-left: 25px;
 	padding-right: 25px;
+	font-size: 25px;
+	font-weight: 500;
+}
+/* local section */
+h2{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 4rem;
+	font-weight: bold;
+	font-family: 'Sansita Swashed', cursive;
 }
 .neighbourhood{
 	width: 75%;
@@ -122,14 +167,18 @@ button{
 	padding-left: 55px;
 	padding-bottom: 10px;
 }
+.local-text{
+	padding-bottom: 20px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+/* footer section */
 .footer{
 	background-color: #0B7A75;
 	padding-top: 35px;
 	padding-bottom: 35px;
-}
-.f-logo{
-	padding-left: 50px;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-around;
 }
+
 	
