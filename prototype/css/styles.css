@@ -57,8 +57,11 @@ h1{
 	font-family: 'Sansita Swashed', cursive;
 }
 /* font for the navigation */
-a, .quote{
+a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
 }
 /* -----------------------------
 	Mobile Styles - Home
