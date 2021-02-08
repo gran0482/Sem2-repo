@@ -60,7 +60,7 @@ h1, h3{
 a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p, h4{
+p, h4, .name{
 	font-family: 'Montserrat', sans-serif;
 }
 /* -----------------------------
@@ -265,11 +265,110 @@ h4{
 /* -----------------------------
 	Mobile Styles - Menu
 -------------------------------*/
+.menu{
+	background-color: #D7C0D8;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.menu-items{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-areas: 
+	"one two"
+	"three four"
+	"five six"
+	"seven eight"
+	"nine ten"
+	"eleven twelve";
+}
+.menu:nth-child(1){
+	grid-area: one;
+}
+.menu:nth-child(2){
+	grid-area: two;
+}
+.menu:nth-child(3){
+	grid-area: three;
+}
+.menu:nth-child(4){
+	grid-area: four;
+}
+.menu:nth-child(5){
+	grid-area: five;
+}
+.menu:nth-child(6){
+	grid-area: six;
+}
+.menu:nth-child(7){
+	grid-area: seven;
+}
+.menu:nth-child(8){
+	grid-area: eight;
+}
+.menu:nth-child(9){
+	grid-area: nine;
+}
+.menu:nth-child(10){
+	grid-area: ten;
+}
+.menu:nth-child(11){
+	grid-area: eleven;
+}
+.menu:nth-child(12){
+	grid-area: twelve;
+}
+/* Section header for feedback form */
 .section-divider{
 	background-color: #74B3CE;
 	padding: 35px;
 }
+.feedback{
+	text-align: center;
+}
+h3.feedback{
+	font-size: 2.5rem;
+	padding-bottom: 10px;
+}
+/* Changing and ajdusting form content */
+.form{
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.name{
+	color: #74B3CE;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
 
+}
+.fl-name{
+	width: auto;
+	height: 33px;
+	border: 3px solid #7AB7B4;
+}
+textarea#text{
+	width: 465px;
+	height: 100px;
+	resize: none;
+	margin-top: 10px;
+	border: 3px solid #7AB7B4;
+}
+.button{
+	border: none;
+	color: #D7C0D8;
+	font-size: 2rem;
+	width: 229px;
+	height: 75px;
+	border-radius: 18px;
+	background-color: #7AB7B4;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
 .footer{
 	background-color: #7AB7B4;
 	padding-top: 35px;
