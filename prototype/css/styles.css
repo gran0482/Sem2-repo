@@ -53,14 +53,14 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* font for h1 */
-h1{
+h1, h3{
 	font-family: 'Sansita Swashed', cursive;
 }
 /* font for the navigation */
 a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-p{
+p, h4{
 	font-family: 'Montserrat', sans-serif;
 }
 /* -----------------------------
@@ -177,11 +177,86 @@ h2{
 }
 /* footer section */
 .footer{
-	background-color: #0B7A75;
+	background-color: #7AB7B4;
 	padding-top: 35px;
 	padding-bottom: 35px;
 	display: flex;
 	justify-content: space-around;
 }
+/* -----------------------------
+	Mobile Styles - About
+-------------------------------*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1{
+	color: white;
+}
+.w-w-w{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.who-what-where{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+.meet{
+	font-size: 3rem;
+}
+.our-team-banner{
+	text-align: center;
+	background-color: #74B3CE;
+	padding: 50px;
+}
+.team{
+	background-color: #D7C0D8;
+}
+h4{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.newsletter{
+	background-color: #74B3CE;
+	padding-bottom: 35px;
+	padding-top: 25px;
+}
+.keep-up{
+	text-align: center;
+	font-size: 2rem;
+}
+.subscribe{
+	background-color: #D7C0D8;
+	color: #0B7A75;
+	position: relative;
+	top: 10px;
+	left: 175px;
+}
+/* images and text for below the subscribe form */
+.icecream-nuts{
+	padding-top: 25px;
+	padding-bottom: 10px;
+	width: 85%;
+	height: auto;
+	padding-top: 15px;
+	padding-left: 35px;
+}
+.footer-text{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 10px;
+}
+.footer{
+	background-color: #7AB7B4;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	display: flex;
+	justify-content: space-around;
+}
+
 
 	
