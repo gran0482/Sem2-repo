@@ -266,7 +266,7 @@ h4{
 /* -----------------------------
 	Mobile Styles - Menu
 -------------------------------*/
-.header{
+/* .header{
 	height: 1045px;
 }
 .tropical{
@@ -278,7 +278,7 @@ h4{
 	top: 780px;
 	left: 150px;
 	z-index: 1;
-}
+} */
 .menu{
 	background-color: #D7C0D8;
 	margin-bottom: 15px;
