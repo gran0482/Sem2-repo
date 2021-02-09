@@ -60,6 +60,7 @@ h1, h3{
 a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Setting the font for these elements */
 p, h4, .name{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -271,6 +272,7 @@ h4{
 	margin-left: 10px;
 	margin-top: 10px;
 }
+/* grid for menu items */
 .menu-items{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -319,6 +321,17 @@ h4{
 .menu:nth-child(12){
 	grid-area: twelve;
 }
+/* Making the images the same size */
+.menu-image{
+	width:  245px;
+    height: 245px;
+    object-fit: cover;
+}
+/* Centering h4 in the container */
+h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 /* Section header for feedback form */
 .section-divider{
 	background-color: #74B3CE;
@@ -346,6 +359,7 @@ h3.feedback{
 	padding-bottom: 5px;
 
 }
+/* First and last name form */
 .fl-name{
 	width: auto;
 	height: 33px;
