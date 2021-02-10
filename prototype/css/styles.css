@@ -85,7 +85,7 @@ p, h4, .name{
 .O-button{
 	position: absolute;
 	top: 950px;
-	left: 150px;
+	left: 125px;
 	z-index: 1;
 }
 .welcometext{
@@ -213,6 +213,20 @@ h2{
 /* -----------------------------
 	Mobile Styles - About
 -------------------------------*/
+.header-about{
+	background-color: #74B3CE;
+	height: 1045px;
+}
+.tropical-image-about{
+	position: relative;
+	bottom: 750px;
+}
+.h1-about{
+	position: absolute;
+	top: 800px;
+	left: 150px;
+	z-index: 1;
+}
 img{
 	max-width: 100%;
 	height: auto;
