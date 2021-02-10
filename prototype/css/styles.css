@@ -67,8 +67,34 @@ p, h4, .name{
 /* -----------------------------
 	Mobile Styles - Home
 -------------------------------*/
-.header-menu{
+.header-home{
 	background-color: #74B3CE;
+	height: 1045px;
+}
+/* styling the image, h1 and button */
+.tropical-image-home{
+	position: relative;
+	bottom: 750px;
+}
+.home-h1{
+	position: absolute;
+	top: 800px;
+	left: 100px;
+	z-index: 1;
+} 
+.O-button{
+	position: absolute;
+	top: 950px;
+	left: 150px;
+	z-index: 1;
+}
+.welcometext{
+	position: absolute;
+	top: 890px;
+	left: 50px;
+	text-align: center;
+	z-index: 1;
+	color: white;
 }
 .logo{
 	width: 75%;
@@ -266,6 +292,9 @@ h4{
 /* -----------------------------
 	Mobile Styles - Menu
 -------------------------------*/
+.header-menu{
+	background-color: #74B3CE;
+}
 .header-menu{
 	height: 1045px;
 }
