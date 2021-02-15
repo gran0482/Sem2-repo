@@ -537,9 +537,25 @@ textarea#text{
 		justify-content: space-evenly;
 		padding-right: 550px;
 	}
-	/*-----------------------
+/*----------------------------
 	Tablet styles - about us
  ----------------------------*/
+ /* Header section and making it match the mockup*/
+ .header-about{
+	 height: 350px;
+	 margin-bottom: 750px;
+ }
+ .tropical-image-about{
+	position: absolute;
+	top: 450px;
+}
+.h1-about{
+	font-size: 6rem;
+	position: absolute;
+	top: 650px;
+	right: 120px;
+	left: 100px;
+}
  /* Making a grid for our team */
  .our-team{
 	display: grid;
@@ -575,6 +591,7 @@ textarea#text{
 .team:nth-child(8){
 	grid-area: eight;
 }
+/* adjusting the heights of the image so they line up with the other images */
 .owner{
 	width: auto;
 	height: 310px;
@@ -584,6 +601,33 @@ textarea#text{
 	width: auto;
 	height: 282px;
 	object-fit: cover;
+}
+/* adjusting the size of the content inside the banner to match the mockup*/
+.keep-up{
+	font-size: 3rem;
+	text-align: center;
+}
+.subscribe{
+	margin-top: 25px;
+	margin-left: 125px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 55px;
+	padding-right: 55px;
+	font-size: 30px;
+}
+.icecream-nuts{
+	width: 650px;
+	height: 650px;
+	object-fit: cover;
+	padding-left: 100px;
+}
+.footer-text{
+	padding-left: 100px ;
+	padding-right: 90px;
+}
+.newsletter-sample{
+	padding-bottom: 15px;
 }
 }
 
