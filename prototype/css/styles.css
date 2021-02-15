@@ -453,7 +453,45 @@ textarea#text{
 	Tablet styles - home
  ------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-	
+	/* adjusting the size of the logo to match the desktop mockup */
+	.logo{
+		margin-left: 185px;
+		width: 40%;
+		position: relative;
+		bottom: 50px;
+	}
+	.header-home{
+		height: 350px;
+		margin-bottom: 750px;
+	}
+	/* centering the menu to match the mockup */
+	a{
+		display: inline;
+		padding-left: 100px;
+		position: relative;
+		bottom: 497px;
+	}
+	.tropical-image-home{
+		position: absolute;
+		top: 450px;
+	}
+	/* sizing the h1, text and button so they match the provided mockup */
+	.home-h1{
+		font-size: 7rem;
+		padding-left: 125px;
+		position: absolute;
+		top: 500px;
+	}
+	.welcometext{
+		font-size: 2.2rem;
+		padding-right: 35px;
+		position: absolute;
+		top: 650px;
+	}
+	.O-button{
+		font-size: 2rem;
+		margin-left: 125px;
+	}
 	/* using a grid to match the provided mockup */
 	.banner{
 		display: grid;
