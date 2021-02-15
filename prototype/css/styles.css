@@ -60,6 +60,21 @@ h1, h3{
 a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* hover and focus states for the whole html page*/
+  /* visited link */
+  a:visited {
+	color: #0B7A75;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: #D7C0D8;
+  }
+  
+  /* selected link */
+  a:active {
+	color: #74B3CE;
+  }
 /* Setting the font for these elements */
 p, h4, .name{
 	font-family: 'Montserrat', sans-serif;
@@ -628,6 +643,57 @@ textarea#text{
 }
 .newsletter-sample{
 	padding-bottom: 15px;
+}
+/*----------------------------
+	Tablet styles - Menu
+ ----------------------------*/
+ /* header styles  */
+ .header-menu{
+	height: 350px;
+	margin-bottom: 750px;
+}
+.tropical{
+   position: absolute;
+   top: 450px;
+}
+.menu-h1{
+   font-size: 6rem;
+   position: absolute;
+   top: 650px;
+   right: 120px;
+   left: 100px;
+}
+/* menu images and scalling them to match their container */
+.menu-image{
+	width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
+.menu{
+	margin-right: 10px;
+	margin-left: 18px;
+	padding-bottom: 15px;
+}
+.centering{
+	padding-top: 25px;
+}
+/* bottom form to match the mockup */
+.name{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+textarea#text{
+	width: 99%;
+	margin-top: 25px;
+}
+.button{
+	margin-top: 20px;
+	padding-right: 50px;
+	padding-left: 40px;
+}
+h3.feedback{
+	font-size: 3.5rem;
+	padding-bottom: 20px;
 }
 }
 
