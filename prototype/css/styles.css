@@ -161,8 +161,10 @@ button{
 	padding-right: 45px;
 	padding-bottom: 10px;
 }
+/* banner for civilian picture and quote */
 .banner{
 	background-color: #74B3CE;
+	height: 735px;
 }
 .civilian{
 	max-width: 100%;
@@ -171,7 +173,7 @@ button{
 	border: 15px solid #D7C0D8;
 	transform: scale(0.6);
 	position: relative;
-	bottom: 75px;
+	bottom: 10px;
 }
 .quote{
 	color: white;
@@ -492,6 +494,14 @@ textarea#text{
 		font-size: 2rem;
 		margin-left: 125px;
 	}
+	/* adjusting the padding left and right to match the provided mockup and so it is inline with the images*/
+	.ice-cream, .little-boy{
+		padding-left: 65px;
+	}
+	.intro-text{
+		padding-left: 55px;
+		padding-right: 55px;
+	}
 	/* using a grid to match the provided mockup */
 	.banner{
 		display: grid;
@@ -508,11 +518,23 @@ textarea#text{
 	}
 	/* Using the civilian class and quote class to have them line up with each other */
 	.civilian{
-		margin-top: 50px;
+		margin-top: 2px;
 		margin-bottom: 2px;
 	}
 	.quote{
-		padding-top: 130px;
+		padding-top: 100px;
+		padding-right: 40px;
+	}
+	.banner{
+		height: 400px;
+	}
+	/* adjusting the picture and text so it is in the lined up in the center */
+	.neighbourhood, .local-text{
+		padding-left: 100px;
+	}
+	.footer{
+		justify-content: space-evenly;
+		padding-right: 550px;
 	}
 }
 
