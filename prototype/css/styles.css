@@ -263,6 +263,7 @@ h1{
 	margin-right: 5px;
 	margin-top: 10px;
 }
+/* Newsletter section */
 h4{
 	text-align: center;
 	padding-bottom: 10px;
@@ -536,6 +537,54 @@ textarea#text{
 		justify-content: space-evenly;
 		padding-right: 550px;
 	}
+	/*-----------------------
+	Tablet styles - about us
+ ----------------------------*/
+ /* Making a grid for our team */
+ .our-team{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: 
+		"one two"
+		"three four"
+		"five six"
+		"seven eight";
+ }
+ .team:nth-child(1){
+	 grid-area: one;
+ }
+ .team:nth-child(2){
+	grid-area: two;
+}
+.team:nth-child(3){
+	grid-area: three;
+}
+.team:nth-child(4){
+	grid-area: four;
+}
+.team:nth-child(5){
+	grid-area: five;
+}
+.team:nth-child(6){
+	grid-area: six;
+}
+.team:nth-child(7){
+	grid-area: seven;
+}
+.team:nth-child(8){
+	grid-area: eight;
+}
+.owner{
+	width: auto;
+	height: 310px;
+	object-fit: cover;
+}
+.employee{
+	width: auto;
+	height: 282px;
+	object-fit: cover;
+}
 }
 
 
