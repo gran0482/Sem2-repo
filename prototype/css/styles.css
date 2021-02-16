@@ -837,7 +837,77 @@ h3.feedback{
 	/* ------------------------
 		Desktop styles - about
 	---------------------------*/
-	
+	.header-about{
+		height: 165px;
+		margin-bottom: 400px;
+	}
+	.tropical-image-about{
+		width:  1920px;
+   		height: 277px;
+    	object-fit: cover;
+		position: relative;
+		bottom: 1340px;
+	}
+	.h1-about{
+		position: absolute;
+		top: 370px;
+		right: 250px;
+		color: black
+	}
+	/* making a grid to display as three columns and one row so it is easier to read on the desktop version */
+	.who-what-where{
+		display: grid;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		grid-template-areas: 
+			"one two three";
+	}
+	.three-w:nth-child(1){
+		grid-area: one;
+	}
+	.three-w:nth-child(2){
+		grid-area: two;
+	}
+	.three-w:nth-child(3){
+		grid-area: three;
+	}
+	.three-w{
+		padding-right: 50px;
+	}
+	/* Making a grid for our team and to match the mockup */
+	.our-team{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas: 
+		"one two three four"
+		"five six seven eight"
+	}
+	.team:nth-child(1){
+		grid-area: one;
+	}
+	.team:nth-child(2){
+		grid-area: two;
+	}
+	.team:nth-child(3){
+		grid-area: three;
+	}
+	.team:nth-child(4){
+		grid-area: four;
+	}
+	.team:nth-child(5){
+		grid-area: five;
+	}
+	.team:nth-child(6){
+		grid-area: six;
+	}
+	.team:nth-child(7){
+		grid-area: seven;
+	}
+	.team:nth-child(8){
+		grid-area: eight;
+	}
 }
 
 
