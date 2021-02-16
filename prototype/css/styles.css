@@ -696,7 +696,36 @@ h3.feedback{
 	padding-bottom: 20px;
 }
 }
-
+/* --------------------------------------------
+				Desktop styles
+/* ----------------------------------------------*/ 
+/* ------------------------
+	Desktop styles - home
+---------------------------*/
+@media screen and (min-width: 1024px){
+	/* making logo 1 hidden and logo 2 visible */
+	.logo{
+		width: 75%;
+		height: auto;
+		padding-left: 60px;
+		visibility: hidden;
+	}
+	.logo-2{
+		max-width: 10%;
+		height: auto;
+		visibility: visible;
+		position: relative;
+		bottom: 1375px;
+		padding-left: 25px;
+		display: flex;
+	}
+	/* using flex to space evenly the navigation */
+	.navigation{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+}
 
 
 	
