@@ -908,6 +908,162 @@ h3.feedback{
 	.team:nth-child(8){
 		grid-area: eight;
 	}
+	/* adjusting the margins so its not right up against the sides */
+	.our-team{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.team{
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	/* making the picture of one of the ceo line up with the other pictures */
+	.ceo{
+		width: 100%;
+   		height: 221.5px;
+    	object-fit: cover;
+	}
+	.newsletter{
+		display: flex;
+	}
+	.keep-up{
+		font-size: 2.75rem;
+		padding-left: 75px;
+		padding-top: 20px;
+	}
+	button.subscribe{
+		font-size: 2rem;
+		padding-right: 50px;
+		padding-left: 50px;
+		margin-bottom: 10px;
+	}
+	.icecream-nuts{
+		width: 700px;
+   		height: 298px;
+    	object-fit: cover;
+	}
+	/* creating a grid to re-create the mockup */
+	.newsletter-sample{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas: 
+		"one two"
+		"four three"
+	}
+	.two-by-two:nth-child(1){
+		grid-area: one;
+	}
+	.two-by-two:nth-child(2){
+		grid-area: two;
+	}
+	.two-by-two:nth-child(3){
+		grid-area: three;
+	}
+	.two-by-two:nth-child(4){
+		grid-area: four;
+	}
+	.footer-text{
+		padding-top: 20px;
+		font-size: 1.75rem;
+	}
+	.newsletter-sample{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-right: 100px;
+
+	}
+	/* ------------------------
+		Desktop styles - menu
+	---------------------------*/
+	.header-menu{
+		height: 165px;
+		margin-bottom: 400px;
+	}
+	.tropical{
+		width:  1920px;
+   		height: 277px;
+    	object-fit: cover;
+		position: relative;
+		bottom: 1340px;
+	}
+	.menu-h1{
+		position: absolute;
+		top: 370px;
+		right: 250px;
+		color: black
+	}
+	/* Creating a menu for all twelve menu items  */
+	.menu-items{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-areas: 
+		"one two three four"
+		"five six seven eight"
+		"nine ten eleven twelve"
+		
+	}
+	.menu:nth-child(1){
+		grid-area: one;
+	}
+	.menu:nth-child(1){
+		grid-area: one;
+	}
+	.menu:nth-child(2){
+		grid-area: two;
+	}
+	.menu:nth-child(3){
+		grid-area: three;
+	}
+	.menu:nth-child(4){
+		grid-area: four;
+	}
+	.menu:nth-child(5){
+		grid-area: five;
+	}
+	.menu:nth-child(6){
+		grid-area: six;
+	}
+	.menu:nth-child(7){
+		grid-area: seven;
+	}
+	.menu:nth-child(8){
+		grid-area: eight;
+	}
+	.menu:nth-child(9){
+		grid-area: nine;
+	}
+	.menu:nth-child(10){
+		grid-area: ten;
+	}
+	.menu:nth-child(11){
+		grid-area: eleven;
+	}
+	.menu:nth-child(12){
+		grid-area: twelve;
+	}
+	.menu-items{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 15px;
+	}
+	.menu-image{
+		width:  479px;
+   		height: 469px;
+    	object-fit: cover;
+	}
+	.feedback-form{
+		padding-left: 250px;
+		padding-right: 250px;
+		margin-bottom: 25px;
+		margin-top: 10px
+	}
+	.feedback-textarea{
+		width: 1000px;
+	}
+
 }
 
 
