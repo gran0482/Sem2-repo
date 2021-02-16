@@ -73,7 +73,7 @@ a{
   
   /* selected link */
   a:active {
-	color: #74B3CE;
+	color: #0B7A75;
   }
 /* Setting the font for these elements */
 p, h4, .name{
@@ -702,7 +702,7 @@ h3.feedback{
 /* ------------------------
 	Desktop styles - home
 ---------------------------*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1500px){
 	/* making logo 1 hidden and logo 2 visible */
 	.logo{
 		width: 75%;
@@ -719,11 +719,124 @@ h3.feedback{
 		padding-left: 25px;
 		display: flex;
 	}
+	.header-home{
+		height: 165px;
+		margin-bottom: 1000px;
+	}
 	/* using flex to space evenly the navigation */
 	.navigation{
 		display: flex;
 		justify-content: space-evenly;
+		position: relative;
+		bottom: 1350px;
 	}
+	/* moving the tropical image up so it sits below the navigation */
+	.tropical-image-home{
+		width:  2796px;
+   		height: 805px;
+    	object-fit: cover;
+		position: relative;
+		bottom: 1340px;
+	}
+	.home-h1{
+		font-size: 6rem;
+	}
+	.ice-cream, .little-boy{
+		width:  710px;
+   		height: 287px;
+    	object-fit: cover;
+	}
+	/* Making a grid for the home so it matches the provided mockup*/
+	.intro{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-areas: 
+			"three two"
+			"four one";
+	}
+	.sccop-boy:nth-child(1){
+		grid-area: one;
+	}
+	.sccop-boy:nth-child(2){
+		grid-area: two;
+	}
+	.sccop-boy:nth-child(3){
+		grid-area: three;
+	}
+	.sccop-boy:nth-child(4){
+		grid-area: four;
+	}
+	/* making a grid for the banner below the intro section */
+	.banner{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		grid-template-areas: 
+			"one two";
+	}
+	.civilian:nth-child(1){
+		grid-area: one;
+	}
+	.civilian:nth-child(2){
+		grid-area: two;
+	}
+	/* making adjustments to the content so that it matches the provided mockup */
+	.banner{
+		height: 264px;
+	}
+	.quote{
+		padding-top: 55px;
+		margin-right: 700px;
+		width: 85%;
+	}
+	img.civilian{
+		width: 60%;
+		margin-left: 150px;
+		position: relative;
+		bottom: 40px;	
+	}
+	/* makng a grid for the local section */
+	.local{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		grid-template-areas: 
+			"one two";
+	}
+	.neighbour-text-image:nth-child(1){
+		grid-area: one;
+	}
+	.neighbour-text-image:nth-child(2){
+		grid-area: two;
+	}
+	/* adjusting the contents inside the grid to match the mockup */
+	.h2-local{
+		display: flex;
+		padding-left: 65px;
+		padding-top: 45px;
+	}
+	.neighbourhood{
+		width:  826px;
+   		height: 494px;
+    	object-fit: cover;
+		padding-top: 50px;
+		position: relative;
+		right: 80px;
+		top: 170px;
+	}
+	.local-text{
+		font-size: 2.5rem;
+		position: relative;
+		bottom: 350px;
+	}
+	.footer{
+		justify-content: space-evenly;
+		padding-right: 750px;
+	}
+	/* ------------------------
+		Desktop styles - about
+	---------------------------*/
 	
 }
 
