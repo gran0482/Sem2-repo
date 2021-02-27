@@ -91,6 +91,7 @@ p, h4, .name{
 	position: relative;
 	bottom: 350px;
 }
+/* positing the h1 so it is ontop of the image */
 .home-h1{
 	position: absolute;
 	top: 800px;
@@ -112,6 +113,7 @@ p, h4, .name{
 	z-index: 1;
 	color: white;
 }
+/* adusting the width and height of the logo so it can stay in the header and hiding logo 2 */
 .logo{
 	width: 75%;
 	height: auto;
@@ -156,6 +158,7 @@ h1{
 	max-width: 100%;
 	height: auto;
 }
+/* having a call to action button on the home page to lead users through the website */
 button{
 	background-color: #74B3CE;
 	border: none;
@@ -167,6 +170,7 @@ button{
 	top: 300px;
 	left: 120px;
 }
+/* Setting the width and height for the ice cream and little boy image */
 .ice-cream, .little-boy{
 	width: 85%;
 	height: auto;
@@ -185,6 +189,7 @@ button{
 	background-color: #74B3CE;
 	height: 735px;
 }
+/* making the image a width of 100 and adding a border around the image to go with the theme of Oasis Scoops */
 .civilian{
 	max-width: 100%;
 	height: auto;
@@ -214,6 +219,7 @@ h2{
 	font-weight: bold;
 	font-family: 'Sansita Swashed', cursive;
 }
+/* setting the width of the image so it is not to large on the page */
 .neighbourhood{
 	width: 75%;
 	height: auto;
@@ -221,6 +227,7 @@ h2{
 	padding-left: 55px;
 	padding-bottom: 10px;
 }
+/* adjusting the padding of the text so it can line up with the image */
 .local-text{
 	padding-bottom: 20px;
 	padding-left: 55px;
@@ -251,6 +258,7 @@ h2{
 	left: 150px;
 	z-index: 1;
 }
+/* Seeting the max-width for the image */
 img{
 	max-width: 100%;
 	height: auto;
@@ -258,6 +266,7 @@ img{
 h1{
 	color: white;
 }
+/* Centering the text for who what where */
 .w-w-w{
 	text-align: center;
 	font-size: 3rem;
