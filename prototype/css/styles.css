@@ -84,12 +84,12 @@ p, h4, .name{
 -------------------------------*/
 .header-home{
 	background-color: #74B3CE;
-	height: 1045px;
+	height: 800px;
 }
 /* styling the image, h1 and button */
 .tropical-image-home{
 	position: relative;
-	bottom: 750px;
+	bottom: 350px;
 }
 .home-h1{
 	position: absolute;
@@ -97,6 +97,7 @@ p, h4, .name{
 	left: 100px;
 	z-index: 1;
 } 
+/* Scoop into your oasis button ADD KEY FRAMES HERE!!!!!!!! */
 .O-button{
 	position: absolute;
 	top: 950px;
@@ -121,6 +122,7 @@ p, h4, .name{
 	height: auto;
 	visibility: hidden;
 }
+/* navigation setion */
 a{
 	text-decoration: none;
 	font-weight: bold;
@@ -132,7 +134,8 @@ a{
 }
 .navigation{
 	position: relative;
-	bottom: 750px;
+	bottom: 400px;
+	z-index: 1;
 }
 h1{
 	font-size: 5rem;
@@ -485,13 +488,14 @@ textarea#text{
 	/* centering the menu to match the mockup */
 	a{
 		display: inline;
-		padding-left: 100px;
+		padding-left: 125px;
 		position: relative;
-		bottom: 497px;
-	}
+		bottom: 325px;
+	}	
 	.tropical-image-home{
 		position: absolute;
 		top: 450px;
+		opacity: 0.6;
 	}
 	/* sizing the h1, text and button so they match the provided mockup */
 	.home-h1{
@@ -702,7 +706,7 @@ h3.feedback{
 /* ------------------------
 	Desktop styles - home
 ---------------------------*/
-@media screen and (min-width: 1024px) and (max-width: 1500px){
+@media screen and (min-width: 1024px) and (max-width: 1280px){
 	/* making logo 1 hidden and logo 2 visible */
 	.logo{
 		width: 75%;
