@@ -460,6 +460,7 @@ textarea#text{
 	margin-top: 10px;
 	border: 3px solid #7AB7B4;
 }
+/*  */
 .button{
 	border: none;
 	color: #D7C0D8;
@@ -471,6 +472,7 @@ textarea#text{
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+/* adjusting the space between the social media icons */
 .footer{
 	background-color: #7AB7B4;
 	padding-top: 35px;
@@ -731,7 +733,7 @@ h3.feedback{
 /* ------------------------
 	Desktop styles - home
 ---------------------------*/
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (min-width: 1025px) and (max-width: 1800px){
 	/* making logo 1 hidden and logo 2 visible */
 	.logo{
 		width: 75%;
@@ -743,39 +745,51 @@ h3.feedback{
 		max-width: 10%;
 		height: auto;
 		visibility: visible;
-		position: relative;
-		bottom: 1375px;
+		position: sticky;
+		bottom: 1000px;
 		padding-left: 25px;
 		display: flex;
 	}
 	.header-home{
-		height: 165px;
-		margin-bottom: 1000px;
+		height: 250px;
+		margin-bottom: 900px;
 	}
 	/* using flex to space evenly the navigation */
 	.navigation{
 		display: flex;
 		justify-content: space-evenly;
 		position: relative;
-		bottom: 1350px;
+		bottom: 875px;
 	}
 	/* moving the tropical image up so it sits below the navigation */
 	.tropical-image-home{
 		width:  2796px;
-   		height: 805px;
+   		height: 600px;
     	object-fit: cover;
 		position: relative;
-		bottom: 1340px;
+		bottom: 875px;
 	}
+	/* Setting the text so it is ontop of the image  */
 	.home-h1{
 		font-size: 6rem;
+		padding-left: 25px;
 	}
+	.intro-text-button{
+		position: relative;
+		bottom: 1500px;
+		left: 150px;
+	}
+	p.welcometext{
+		padding-top: 10px;
+		padding-left: 75px;
+	}
+	/* Seeting the width and height for the images to match the mockup */
 	.ice-cream, .little-boy{
 		width:  710px;
    		height: 287px;
     	object-fit: cover;
 	}
-	/* Making a grid for the home so it matches the provided mockup*/
+	/* Making a grid for the home of the little boy and ice cream so it matches the provided mockup*/
 	.intro{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -796,6 +810,15 @@ h3.feedback{
 	.sccop-boy:nth-child(4){
 		grid-area: four;
 	}
+	/* putting the grid in the middle of the page and increasing the line height to fill up the space */
+	.intro{
+		max-width: 80%;
+		padding-left: 120px;
+		padding-bottom: 60px;
+	}
+	.intro-text{
+		line-height: 30px;
+	}
 	/* making a grid for the banner below the intro section */
 	.banner{
 		display: grid;
@@ -812,10 +835,10 @@ h3.feedback{
 	}
 	/* making adjustments to the content so that it matches the provided mockup */
 	.banner{
-		height: 264px;
+		height: 400px;
 	}
 	.quote{
-		padding-top: 55px;
+		padding-top: 200px;
 		margin-right: 700px;
 		width: 85%;
 	}
@@ -823,7 +846,7 @@ h3.feedback{
 		width: 60%;
 		margin-left: 150px;
 		position: relative;
-		bottom: 40px;	
+		bottom: 100px;	
 	}
 	/* makng a grid for the local section */
 	.local{
@@ -847,41 +870,43 @@ h3.feedback{
 	}
 	.neighbourhood{
 		width:  826px;
-   		height: 494px;
+   		height: 460px;
     	object-fit: cover;
-		padding-top: 50px;
+		padding-top: 30px;
 		position: relative;
 		right: 80px;
-		top: 170px;
+		top: 120px;
 	}
 	.local-text{
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		position: relative;
 		bottom: 350px;
+		line-height: 1.6;
 	}
 	.footer{
-		justify-content: space-evenly;
-		padding-right: 750px;
+		display: flex;
+		justify-content: space-evenly;;
+		padding-right: 1450px;
 	}
 	/* ------------------------
 		Desktop styles - about
 	---------------------------*/
 	.header-about{
-		height: 165px;
-		margin-bottom: 400px;
+		height: 250px;
+		margin-bottom: 900px;
 	}
 	.tropical-image-about{
-		width:  1920px;
-   		height: 277px;
+		width:  2796px;
+   		height: 600px;
     	object-fit: cover;
 		position: relative;
-		bottom: 1340px;
+		bottom: 875px;
 	}
 	.h1-about{
 		position: absolute;
-		top: 370px;
-		right: 250px;
-		color: black
+		top: 600px;
+		right: 200px;
+		color: white;
 	}
 	/* making a grid to display as three columns and one row so it is easier to read on the desktop version */
 	.who-what-where{
@@ -949,12 +974,17 @@ h3.feedback{
 	/* making the picture of one of the ceo line up with the other pictures */
 	.ceo{
 		width: 100%;
-   		height: 221.5px;
+   		height: 290px;
     	object-fit: cover;
 	}
+	/* banner section between meeting our team and the bottom section */
 	.newsletter{
 		display: flex;
+		padding-left: 170px;
+		margin-bottom: 50px;
+		margin-top: 50px;
 	}
+	/* changing the size of the font in the banner */
 	.keep-up{
 		font-size: 2.75rem;
 		padding-left: 75px;
@@ -1000,27 +1030,29 @@ h3.feedback{
 		margin-top: 25px;
 		margin-bottom: 25px;
 		margin-right: 100px;
-
+		max-width: 80%;
+		padding-left: 120px;
+		padding-bottom: 60px;
 	}
 	/* ------------------------
 		Desktop styles - menu
 	---------------------------*/
 	.header-menu{
-		height: 165px;
-		margin-bottom: 400px;
+		height: 250px;
+		margin-bottom: 900px;
 	}
 	.tropical{
-		width:  1920px;
-   		height: 277px;
+		width:  2796px;
+   		height: 600px;
     	object-fit: cover;
 		position: relative;
-		bottom: 1340px;
+		bottom: 875px;
 	}
 	.menu-h1{
 		position: absolute;
-		top: 370px;
+		top: 600px;
 		right: 250px;
-		color: black
+		color: white;
 	}
 	/* Creating a menu for all twelve menu items  */
 	.menu-items{
@@ -1030,8 +1062,7 @@ h3.feedback{
 		grid-template-areas: 
 		"one two three four"
 		"five six seven eight"
-		"nine ten eleven twelve"
-		
+		"nine ten eleven twelve"	
 	}
 	.menu:nth-child(1){
 		grid-area: one;
@@ -1084,13 +1115,14 @@ h3.feedback{
     	object-fit: cover;
 	}
 	.feedback-form{
-		padding-left: 250px;
+		max-width: 65%;
+		padding-left: 350px;
 		padding-right: 250px;
 		margin-bottom: 25px;
 		margin-top: 10px
 	}
 	.feedback-textarea{
-		width: 1000px;
+		width: 1300px;
 	}
 
 }
