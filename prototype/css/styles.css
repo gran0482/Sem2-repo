@@ -98,13 +98,14 @@ p, h4, .name{
 	left: 100px;
 	z-index: 1;
 } 
-/* Scoop into your oasis button ADD KEY FRAMES HERE!!!!!!!! */
+/* Scoop into your oasis button */
 .O-button{
 	position: absolute;
 	top: 950px;
 	left: 125px;
 	z-index: 1;
 }
+/* making the "welcome" text be onto of the background image */
 .welcometext{
 	position: absolute;
 	top: 890px;
@@ -124,7 +125,7 @@ p, h4, .name{
 	height: auto;
 	visibility: hidden;
 }
-/* navigation setion */
+/* navigation setion and making it vertical*/
 a{
 	text-decoration: none;
 	font-weight: bold;
@@ -184,7 +185,7 @@ button{
 	padding-right: 45px;
 	padding-bottom: 10px;
 }
-/* banner for civilian picture and quote */
+/* banner for civilian picture and quote to make a seperator*/
 .banner{
 	background-color: #74B3CE;
 	height: 735px;
@@ -199,6 +200,7 @@ button{
 	position: relative;
 	bottom: 10px;
 }
+/* centering the quote so it can line up with the image to the left */
 .quote{
 	color: white;
 	padding-bottom: 25px;
@@ -210,7 +212,7 @@ button{
 	bottom: 50px;
 	text-align: center;
 }
-/* local section */
+/* local section and aligning it so it lines up to the center*/
 h2{
 	text-align: center;
 	padding-top: 10px;
@@ -279,6 +281,7 @@ h1{
 	padding-right: 25px;
 	padding-bottom: 20px;
 }
+/* meet our team banner to seperate the WWWW and to introduce the team section */
 .meet{
 	font-size: 3rem;
 }
@@ -287,7 +290,7 @@ h1{
 	background-color: #74B3CE;
 	padding: 50px;
 }
-/* adding a margin property to have the images be single */
+/* adding a margin property to have the images for the images to be single */
 .team{
 	background-color: #D7C0D8;
 	margin-left: 5px;
@@ -299,6 +302,7 @@ h4{
 	text-align: center;
 	padding-bottom: 10px;
 }
+/* adding a background colour and centering the text in between the space to match the mockup */
 .newsletter{
 	background-color: #74B3CE;
 	margin-top: 10px;
@@ -330,6 +334,7 @@ h4{
 	padding-right: 35px;
 	padding-bottom: 10px;
 }
+/* adjsuting the content that is inside the footer */
 .footer{
 	background-color: #7AB7B4;
 	padding-top: 35px;
@@ -360,7 +365,7 @@ h4{
 	margin-left: 10px;
 	margin-top: 10px;
 }
-/* grid for menu items */
+/* grid for menu items so they are not in a row since their are twelve menu items*/
 .menu-items{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -409,7 +414,7 @@ h4{
 .menu:nth-child(12){
 	grid-area: twelve;
 }
-/* Making the images the same size */
+/* Making the images the same size in the grid*/
 .menu-image{
 	width:  245px;
     height: 245px;
@@ -425,6 +430,7 @@ h4{
 	background-color: #74B3CE;
 	padding: 35px;
 }
+/* aliging the text to the center and making the font size bigger so it looks visually appealing */
 .feedback{
 	text-align: center;
 }
@@ -439,13 +445,13 @@ h3.feedback{
 	padding-left: 15px;
 	padding-right: 15px;
 }
+/* name title for the contact form and adjusting the size */
 .name{
 	color: #74B3CE;
 	font-size: 25px;
 	font-weight: bold;
 	padding-top: 10px;
 	padding-bottom: 5px;
-
 }
 /* First and last name form */
 .fl-name{
@@ -460,7 +466,7 @@ textarea#text{
 	margin-top: 10px;
 	border: 3px solid #7AB7B4;
 }
-/*  */
+/* making the button match the contact form to match the overall theme of Oasis scoops */
 .button{
 	border: none;
 	color: #D7C0D8;
