@@ -113,11 +113,11 @@ p, h4, .name{
 }
 .O-button:hover{
 	animation-name: bounce;
-	animation-timing-function: ease;
+	animation-timing-function: ease-in-out;
 }
 @keyframes bounce{
   0%   { transform: translateY(0); }
-  50%  { transform: translateY(-100px); }
+  50%  { transform: translateY(-40px); }
   100% { transform: translateY(0); }
 }
 /* making the "welcome" text be onto of the background image */
@@ -556,6 +556,12 @@ textarea#text{
 		font-size: 2rem;
 		margin-left: 125px;
 	}
+	/* adding a bigger bounce so it goes higher than the mobile animation */
+	@keyframes bounce{
+		0%   { transform: translateY(0); }
+		50%  { transform: translateY(-150px); }
+		100% { transform: translateY(0); }
+	}
 	/* adjusting the padding left and right to match the provided mockup and so it is inline with the images*/
 	.ice-cream, .little-boy{
 		padding-left: 65px;
@@ -787,6 +793,12 @@ h3.feedback{
 		bottom: 775px;
 		left: 675px;
 	}
+	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
+	@keyframes bounce{
+		0%   { transform: translateY(0); }
+		50%  { transform: translateY(-30px); }
+		100% { transform: translateY(0); }
+	  }
 	/* using flex to space evenly the navigation */
 	.navigation{
 		display: flex;
