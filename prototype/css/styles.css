@@ -86,6 +86,9 @@ p, h4, .name{
 	background-color: #74B3CE;
 	height: 800px;
 }
+.Oasis-scoops-header{
+	visibility: hidden;
+}
 /* styling the image, h1 and button */
 .tropical-image-home{
 	position: relative;
@@ -759,6 +762,14 @@ h3.feedback{
 	.header-home{
 		height: 250px;
 		margin-bottom: 900px;
+	}
+	.Oasis-scoops-header{
+		visibility: visible;
+		color: black;
+		z-index: 1;
+		position: absolute;
+		bottom: 775px;
+		left: 675px;
 	}
 	/* using flex to space evenly the navigation */
 	.navigation{
