@@ -808,8 +808,8 @@ h3.feedback{
 		display: flex;
 	}
 	.header-home{
-		height: 250px;
-		margin-bottom: 900px;
+		height: 225px;
+		margin-bottom: 750px;
 	}
 	/* adding "Oasis Scoops" in the header to tell users this is the Oasis Scoops website */
 	.Oasis-scoops-header{
@@ -817,7 +817,7 @@ h3.feedback{
 		color: black;
 		z-index: 1;
 		position: absolute;
-		bottom: 775px;
+		bottom: 800px;
 		left: 675px;
 	}
 	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
@@ -831,7 +831,7 @@ h3.feedback{
 		display: flex;
 		justify-content: space-evenly;
 		position: relative;
-		bottom: 875px;
+		bottom: 730px;
 	}
 	/* moving the tropical image up so it sits below the navigation */
 	.tropical-image-home{
@@ -839,7 +839,7 @@ h3.feedback{
    		height: 600px;
     	object-fit: cover;
 		position: relative;
-		bottom: 875px;
+		bottom: 730px;
 	}
 	/* Setting the text so it is ontop of the image and easy to read by users*/
 	.home-h1{
@@ -848,7 +848,7 @@ h3.feedback{
 	}
 	.intro-text-button{
 		position: relative;
-		bottom: 1500px;
+		bottom: 1350px;
 		left: 150px;
 	}
 	p.welcometext{
