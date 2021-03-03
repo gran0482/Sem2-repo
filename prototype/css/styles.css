@@ -82,7 +82,7 @@ p, h4, .name{
 /* -----------------------------
 	Mobile Styles - Home
 -------------------------------*/
-.header-home{
+.header{
 	background-color: #74B3CE;
 	height: 800px;
 }
@@ -90,7 +90,7 @@ p, h4, .name{
 	visibility: hidden;
 }
 /* styling the image, h1 and button */
-.tropical-image-home{
+.tropical-image{
 	position: relative;
 	bottom: 350px;
 }
@@ -270,14 +270,6 @@ h2{
 /* -----------------------------
 	Mobile Styles - About
 -------------------------------*/
-.header-about{
-	background-color: #74B3CE;
-	height: 800px;
-}
-.tropical-image-about{
-	position: relative;
-	bottom: 350px;
-}
 /* centering the text with the background image */
 .h1-about{
 	position: absolute;
@@ -377,13 +369,9 @@ h4{
 /* -----------------------------
 	Mobile Styles - Menu
 -------------------------------*/
-.header-menu{
+.header{
 	background-color: #74B3CE;
 	height: 800px;
-}
-.tropical{
-	position: relative;
-	bottom: 350px;
 }
 .menu-h1{
 	position: absolute;
@@ -541,7 +529,7 @@ textarea#text{
 		position: relative;
 		bottom: 50px;
 	}
-	.header-home{
+	.header{
 		height: 350px;
 		margin-bottom: 750px;
 	}
@@ -553,7 +541,7 @@ textarea#text{
 		bottom: 325px;
 	}	
 	/* setting the opacity to match the mockup */
-	.tropical-image-home{
+	.tropical-image{
 		position: absolute;
 		top: 450px;
 		opacity: 0.6;
@@ -634,15 +622,6 @@ textarea#text{
 	Tablet styles - about us
  ----------------------------*/
  /* Header section and making it match the mockup*/
- .header-about{
-	 height: 350px;
-	 margin-bottom: 750px;
- }
- .tropical-image-about{
-	position: absolute;
-	top: 450px;
-	opacity: 0.6;
-}
 .h1-about{
 	font-size: 6rem;
 	position: absolute;
@@ -731,15 +710,6 @@ textarea#text{
 	Tablet styles - Menu
  ----------------------------*/
  /* header styles  */
- .header-menu{
-	height: 350px;
-	margin-bottom: 750px;
-}
-.tropical{
-   position: absolute;
-   top: 450px;
-   opacity: 0.6;
-}
 .menu-h1{
    font-size: 6rem;
    position: absolute;
@@ -807,7 +777,7 @@ h3.feedback{
 		padding-left: 25px;
 		display: flex;
 	}
-	.header-home{
+	.header{
 		height: 225px;
 		margin-bottom: 750px;
 	}
@@ -832,14 +802,16 @@ h3.feedback{
 		justify-content: space-evenly;
 		position: relative;
 		bottom: 730px;
+		right: 40px;
 	}
 	/* moving the tropical image up so it sits below the navigation */
-	.tropical-image-home{
+	.tropical-image{
 		width:  2796px;
    		height: 600px;
     	object-fit: cover;
 		position: relative;
 		bottom: 730px;
+		opacity: .6;
 	}
 	/* Setting the text so it is ontop of the image and easy to read by users*/
 	.home-h1{
@@ -965,17 +937,6 @@ h3.feedback{
 	/* ------------------------
 		Desktop styles - about
 	---------------------------*/
-	.header-about{
-		height: 250px;
-		margin-bottom: 900px;
-	}
-	.tropical-image-about{
-		width:  2796px;
-   		height: 600px;
-    	object-fit: cover;
-		position: relative;
-		bottom: 875px;
-	}
 	.h1-about{
 		position: absolute;
 		top: 600px;
@@ -1114,21 +1075,10 @@ h3.feedback{
 	/* ------------------------
 		Desktop styles - menu
 	---------------------------*/
-	.header-menu{
-		height: 250px;
-		margin-bottom: 900px;
-	}
-	.tropical{
-		width:  2796px;
-   		height: 600px;
-    	object-fit: cover;
-		position: relative;
-		bottom: 875px;
-	}
 	.menu-h1{
 		position: absolute;
 		top: 600px;
-		right: 250px;
+		right: 200px;
 		color: white;
 	}
 	/* Creating a 4x3 grid for all twelve menu items  */
