@@ -926,7 +926,7 @@ h3.feedback{
 	/* putting the social media in the lower left hand corner of the webpage */
 	.footer{
 		display: flex;
-		justify-content: space-evenly;;
+		justify-content: space-evenly;
 		padding-right: 1450px;
 	}
 	/* ------------------------
