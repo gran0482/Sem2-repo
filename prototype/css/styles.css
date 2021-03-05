@@ -233,7 +233,7 @@ button{
 .civilian{
 	max-width: 100%;
 	height: auto;
-	border-radius: 85%;
+	border-radius: 100%;
 	border: 15px solid #D7C0D8;
 	transform: scale(0.6);
 	position: relative;
@@ -789,9 +789,8 @@ h3.feedback{
 		height: auto;
 		visibility: visible;
 		position: sticky;
-		bottom: 1000px;
+		bottom: 80%;
 		padding-left: 25px;
-		display: flex;
 	}
 	.header{
 		height: 225px;
@@ -802,9 +801,8 @@ h3.feedback{
 		visibility: visible;
 		color: black;
 		z-index: 1;
-		position: absolute;
-		bottom: 750px;
-		left: 675px;
+		position: sticky;
+		bottom: 83%;
 	}
 	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
 	@keyframes bounce{
