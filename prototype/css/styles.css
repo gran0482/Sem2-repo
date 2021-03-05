@@ -555,6 +555,7 @@ textarea#text{
 	.home-h1{
 		font-size: 7rem;
 		padding-left: 125px;
+		margin-left: 45px;
 		position: absolute;
 		top: 500px;
 	}
@@ -564,10 +565,13 @@ textarea#text{
 		position: absolute;
 		top: 650px;
 	}
+	/* styling the home button to be different from the mobile styles  */
 	.O-button{
 		font-size: 2rem;
-		margin-left: 50px;
-		padding-right: 100px;
+		margin-left: 160px;
+		padding-right: 55px;
+		padding-left: 55px;
+		padding-bottom: 65px;
 	}
 	/* adding a bigger bounce so it goes higher than the mobile animation */
 	@keyframes bounce{
@@ -621,8 +625,13 @@ textarea#text{
 	}
 	/* adjusting the social media icons to be on to the bottom left hand side of the page */
 	.footer{
-		justify-content: space-evenly;
-		padding-right: 700px;
+		justify-content: flex-start;
+	}
+	.logo-footer{
+		padding-right: 50px;
+	}
+	.logo-footer:nth-child(1){
+		padding-left: 30px;
 	}
 /*----------------------------
 	Tablet styles - about us
@@ -935,8 +944,13 @@ h3.feedback{
 	/* putting the social media in the lower left hand corner of the webpage */
 	.footer{
 		display: flex;
-		justify-content: space-evenly;
-		padding-right: 1450px;
+		justify-content: flex-start;
+	}
+	.logo-footer{
+		padding-right: 50px;
+	}
+	.logo-footer:nth-child(1){
+		padding-left: 30px;
 	}
 	/* ------------------------
 		Desktop styles - about
