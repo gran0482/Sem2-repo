@@ -89,7 +89,12 @@ p, h4, .name{
 .Oasis-scoops-header{
 	visibility: hidden;
 }
-/* styling the image, h1 and button */
+/* styling the tropical image to make responsive */
+img.tropical-image{
+	width: 100%;
+    height: 375px;
+    object-fit: cover;
+}
 .tropical-image{
 	position: relative;
 	bottom: 350px;
@@ -232,7 +237,7 @@ button{
 	border: 15px solid #D7C0D8;
 	transform: scale(0.6);
 	position: relative;
-	bottom: 10px;
+	bottom: 30px; 
 }
 /* centering the quote so it can line up with the image that is above */
 .quote{
@@ -243,7 +248,7 @@ button{
 	font-size: 25px;
 	font-weight: 500;
 	position: relative;
-	bottom: 50px;
+	bottom: 100px;
 	text-align: center;
 }
 /* local section and aligning it so it lines up to the center of the page*/
@@ -542,7 +547,12 @@ textarea#text{
 		position: relative;
 		bottom: 325px;
 	}	
-	/* setting the opacity to match the mockup */
+	/* setting the opacity to match the mockup and setting the height to prevent it from overlapping other elements*/
+	img.tropical-image{
+		width: 100%;
+    	height: 708px;
+    	object-fit: cover;
+	}
 	.tropical-image{
 		position: absolute;
 		top: 450px;
@@ -811,6 +821,11 @@ h3.feedback{
 		right: 40px;
 	}
 	/* moving the tropical image up so it sits below the navigation */
+	img.tropical-image{
+		width: 100%;
+    	height: 630px;
+    	object-fit: cover;
+	}
 	.tropical-image{
 		width:  2796px;
    		height: 600px;
@@ -890,7 +905,7 @@ h3.feedback{
 	}
 	/* making adjustments to the content inside the banner so that it matches the mockup */
 	.banner{
-		height: 400px;
+		max-height: 400px;
 	}
 	.quote{
 		padding-top: 200px;
@@ -1172,7 +1187,7 @@ h3.feedback{
 		margin-top: 10px
 	}
 	.feedback-textarea{
-		max-width: 65%;
+		width: 65%;
 	}
 
 }
