@@ -607,25 +607,11 @@ textarea#text{
 	}
 	/* using a grid to match the provided mockup instead of keeping it vertical as in the mobile mockup*/
 	.banner{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(1, 1fr);
-		grid-template-areas: 
-			"one two";
-	}
-	.civilian:nth-child(1){
-		grid-area: one;
-	}
-	.civilian:nth-child(2){
-		grid-area: two;
+		display: flex;
 	}
 	/* Using the civilian class and quote class to have them line up with each other (horizontally) */
 	.civilian{
-		margin-top: 2px;
-		margin-bottom: 2px;
-		/* position: relative;
-		bottom: 80px; */
-		max-height: 650px;
+		margin-top: 50px;
 	}
 	.quote{
 		padding-top: 100px;
@@ -636,6 +622,9 @@ textarea#text{
 	/* Setting the height of the banner for the content to be able to fit inside of it */
 	.banner{
 		height: 400px;
+	}
+	img.civilian{
+		transform: scale(0.8);
 	}
 	/* adjusting the picture and text so it is in the lined up in the center of the page */
 	.neighbourhood, .local-text{
@@ -899,35 +888,20 @@ h3.feedback{
 	.intro-text{
 		line-height: 30px;
 	}
-	/* making a grid for the banner below the intro section */
-	.banner{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(1, 1fr);
-		grid-template-areas: 
-			"one two";
-	}
-	.civilian:nth-child(1){
-		grid-area: one;
-	}
-	.civilian:nth-child(2){
-		grid-area: two;
-	}
 	/* making adjustments to the content inside the banner so that it matches the mockup */
 	.banner{
-		max-height: 400px;
+		max-height: 375px;
+		display: flex;
+		padding-top: 50px;
+		padding-left: 75px;
 	}
 	.quote{
-		padding-top: 200px;
-		margin-right: 700px;
+		padding-top: 225px;
+		margin-right: 175px;
 		width: 85%;
 	}
 	img.civilian{
-		max-width: 55%;
-		margin-left: 150px;
-		position: relative;
-		bottom: 100px;
-		max-height: 650px;	
+		transform: scale(0.8);
 	}
 	/* makng a grid for the local section to be able to read better on a desktop*/
 	.local{
