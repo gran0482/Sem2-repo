@@ -788,24 +788,24 @@ h3.feedback{
 		visibility: hidden;
 	}
 	.logo-2{
-		max-width: 10%;
+		max-width: 100%;
 		height: auto;
 		visibility: visible;
-		position: sticky;
-		bottom: 80%;
-		padding-left: 25px;
 	}
 	.header{
 		height: 225px;
 		margin-bottom: 750px;
+		display: flex;
+		justify-content: flex-start;
 	}
 	/* adding "Oasis Scoops" in the header to tell users this is the Oasis Scoops website */
 	.Oasis-scoops-header{
 		visibility: visible;
 		color: black;
 		z-index: 1;
-		position: sticky;
-		bottom: 85%;
+		text-align: center;
+		margin-top: 60px;
+		width: 80%;
 	}
 	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
 	@keyframes bounce{
