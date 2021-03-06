@@ -537,6 +537,7 @@ textarea#text{
 		width: 50%;
 		margin-left: 250px;
 		margin-bottom: 50px;
+		visibility: visible;
 	}
 	.header{
 		height: 350px;
