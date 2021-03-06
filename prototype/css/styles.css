@@ -614,8 +614,8 @@ textarea#text{
 	.civilian{
 		margin-top: 2px;
 		margin-bottom: 2px;
-		position: relative;
-		bottom: 80px;
+		/* position: relative;
+		bottom: 80px; */
 		max-height: 650px;
 	}
 	.quote{
