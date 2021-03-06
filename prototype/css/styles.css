@@ -550,6 +550,14 @@ textarea#text{
 		position: relative;
 		bottom: 325px;
 	}	
+	.navigation{
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: nowrap;
+		position: relative;
+		bottom: 400px;
+		right: 60px;
+	}
 	/* setting the opacity to match the mockup and setting the height to prevent it from overlapping other elements*/
 	img.tropical-image{
 		width: 100%;
@@ -808,20 +816,20 @@ h3.feedback{
 		margin-top: 60px;
 		width: 80%;
 	}
+	.navigation{
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: nowrap;
+		position: relative;
+		bottom: 730px;
+		right: 40px;
+	}
 	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
 	@keyframes bounce{
 		0%   { transform: translateY(0); }
 		50%  { transform: translateY(-30px); }
 		100% { transform: translateY(0); }
 	  }
-	/* using flex to space evenly the navigation and for it to display across the page*/
-	.navigation{
-		display: flex;
-		justify-content: space-evenly;
-		position: relative;
-		bottom: 730px;
-		right: 40px;
-	}
 	/* moving the tropical image up so it sits below the navigation */
 	img.tropical-image{
 		width: 100%;
