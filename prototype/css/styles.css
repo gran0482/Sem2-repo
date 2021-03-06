@@ -238,6 +238,7 @@ button{
 	transform: scale(0.6);
 	position: relative;
 	bottom: 30px; 
+	max-height: 650px;
 }
 /* centering the quote so it can line up with the image that is above */
 .quote{
@@ -250,6 +251,7 @@ button{
 	position: relative;
 	bottom: 100px;
 	text-align: center;
+	max-height: 735px;
 }
 /* local section and aligning it so it lines up to the center of the page*/
 h2{
@@ -613,7 +615,8 @@ textarea#text{
 		margin-top: 2px;
 		margin-bottom: 2px;
 		position: relative;
-		bottom: 70px;
+		bottom: 80px;
+		max-height: 650px;
 	}
 	.quote{
 		padding-top: 100px;
@@ -802,7 +805,7 @@ h3.feedback{
 		color: black;
 		z-index: 1;
 		position: sticky;
-		bottom: 83%;
+		bottom: 85%;
 	}
 	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
 	@keyframes bounce{
@@ -911,10 +914,11 @@ h3.feedback{
 		width: 85%;
 	}
 	img.civilian{
-		width: 60%;
+		max-width: 55%;
 		margin-left: 150px;
 		position: relative;
-		bottom: 100px;	
+		bottom: 100px;
+		max-height: 650px;	
 	}
 	/* makng a grid for the local section to be able to read better on a desktop*/
 	.local{
