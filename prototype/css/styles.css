@@ -806,7 +806,6 @@ h3.feedback{
 		flex-wrap: nowrap;
 		position: relative;
 		bottom: 730px;
-		right: 40px;
 	}
 	/* making the bounce smaller for the desktop version to avoid the button overlapping the words*/
 	@keyframes bounce{
