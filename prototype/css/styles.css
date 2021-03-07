@@ -784,7 +784,7 @@ h3.feedback{
 /* ------------------------
 	Desktop styles - home
 ---------------------------*/
-@media screen and (min-width: 1025px) and (max-width: 2200px){
+@media screen and (min-width: 1025px) and (max-width: 1920px){
 	/* making logo 1 hidden and logo 2 visible */
 	.logo{
 		visibility: hidden;
