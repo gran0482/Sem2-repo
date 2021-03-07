@@ -701,15 +701,25 @@ textarea#text{
 	font-size: 3rem;
 	text-align: center;
 }
+.newsletter{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
 /* adjusting the size of the button and it can be more user friendly and easy to read */
 .subscribe{
 	margin-top: 25px;
-	margin-left: 125px;
+	/* margin-left: 125px; */
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 55px;
 	padding-right: 55px;
 	font-size: 30px;
+	position: relative;
+	left: 0px;
+	display: flex;
 }
 /* making the two images the same size and making the square */
 .icecream-nuts{
@@ -1038,12 +1048,11 @@ h3.feedback{
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: center;
-		margin-bottom: 50px;
-		margin-top: 50px;
+		width: 100%;
 	}
 	/* changing the size of the font in the banner to make it easier to read*/
 	.keep-up{
-		font-size: 2.75rem;
+		font-size: 2.5rem;
 		padding-top: 20px;
 	}
 	/* Styles inside the button and making it easier to read */
