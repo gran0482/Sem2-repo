@@ -598,8 +598,9 @@ textarea#text{
 		padding-left: 65px;
 	}
 	.intro-text{
-		padding-left: 55px;
-		padding-right: 55px;
+		padding-left: 65px;
+		padding-right: 65px;
+		text-align: left;
 	}
 	/* using a grid to match the provided mockup instead of keeping it vertical as in the mobile mockup*/
 	.banner{
@@ -857,11 +858,6 @@ h3.feedback{
    		height: 287px;
     	object-fit: cover;
 	}
-	/* making the grid be inbetween the header image and the banner */
-	.intro{
-		position: relative;
-		bottom: 50px;
-	}
 	/* Making a grid for the home of the little boy and ice cream so it matches the provided mockup*/
 	.intro{
 		display: grid;
@@ -888,10 +884,13 @@ h3.feedback{
 		max-width: 80%;
 		padding-left: 120px; 
 		padding-bottom: 60px;
+		position: relative;
+		bottom: 50px;
 	}
 	.intro-text{
 		line-height: 25px;
 		padding-top: 10px;
+		text-align: left;
 	}
 	/* making adjustments to the content inside the banner so that it matches the mockup */
 	.banner{
