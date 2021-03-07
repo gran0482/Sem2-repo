@@ -151,8 +151,8 @@ div.Welcome{
 .logo{
 	max-width: 100%;
 	height: 400px;
-	position: absolute;
-	bottom: 475px;
+	/* position: absolute;
+	bottom: 475px; */
 	margin-right: 10px;
 }
 .logo-2{
@@ -387,10 +387,6 @@ h4{
 /* -----------------------------
 	Mobile Styles - Menu
 -------------------------------*/
-.header{
-	background-color: #74B3CE;
-	height: 800px;
-}
 /* adding a background color to each menu item to make it look visually apealing to the user */
 .menu{
 	background-color: #D7C0D8;
