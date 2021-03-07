@@ -1036,24 +1036,27 @@ h3.feedback{
 	/* banner section between meeting our team and the bottom section and using flex to display it in a row*/
 	.newsletter{
 		display: flex;
-		flex-wrap: wrap;
-		padding-left: 170px;
+		flex-wrap: nowrap;
+		justify-content: center;
 		margin-bottom: 50px;
 		margin-top: 50px;
 	}
 	/* changing the size of the font in the banner to make it easier to read*/
 	.keep-up{
 		font-size: 2.75rem;
-		padding-left: 75px;
 		padding-top: 20px;
 	}
-	/* Subscribe button and making it easier to read */
+	/* Styles inside the button and making it easier to read */
 	button.subscribe{
 		font-size: 2rem;
 		padding-right: 50px;
-		padding-left: 50px;
+		padding-left: 50px; 
 		margin-bottom: 10px;
 	}	
+	/* styles outside of the button */
+	.subscribe{
+		display: flex;
+	}
 	/* making the two images the same size */
 	.icecream-nuts{
 		width: 700px;
