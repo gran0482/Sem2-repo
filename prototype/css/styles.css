@@ -1074,6 +1074,7 @@ h3.feedback{
 	/* creating a grid to re-create the mockup */
 	.newsletter-sample{
 		display: grid;
+		grid-gap: 5px;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		grid-template-areas: 
