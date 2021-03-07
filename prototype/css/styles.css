@@ -605,14 +605,15 @@ textarea#text{
 	/* using a grid to match the provided mockup instead of keeping it vertical as in the mobile mockup*/
 	.banner{
 		display: flex;
+		justify-content: space-between;
 	}
 	/* Using the civilian class and quote class to have them line up with each other (horizontally) */
 	.civilian{
 		margin-top: 50px;
 	}
 	.quote{
-		padding-top: 100px;
-		padding-right: 40px;
+		padding-top: 50px;
+		text-align: left;
 		position: relative;
 		top: 10px;
 	}
@@ -621,7 +622,8 @@ textarea#text{
 		height: 400px;
 	}
 	img.civilian{
-		transform: scale(0.8);
+		transform: scale(0.5);
+		align-self: center;
 	}
 	/* adjusting the picture and text so it is in the lined up in the center of the page */
 	.neighbourhood, .local-text{
@@ -895,18 +897,21 @@ h3.feedback{
 	}
 	/* making adjustments to the content inside the banner so that it matches the mockup */
 	.banner{
-		max-height: 375px;
+		max-height: 390px;
 		display: flex;
 		padding-top: 50px;
-		padding-left: 75px;
+		padding-left: 50px;
 	}
 	.quote{
-		padding-top: 225px;
-		margin-right: 175px;
+		padding-top: 175px; 
+		margin-right: 50px;
 		width: 85%;
+		text-align: left;
+		display: flex;
 	}
 	img.civilian{
-		transform: scale(0.8);
+		transform: scale(0.5);
+		align-self: center;
 	}
 	/* makng a grid for the local section to be able to read better on a desktop*/
 	.local{
