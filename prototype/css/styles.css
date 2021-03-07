@@ -951,7 +951,8 @@ h3.feedback{
 	.menu-about-h1{
 		position: absolute;
 		top: 600px;
-		left: 750px;
+		width: 80%;
+		/* left: 750px; */
 		color: white;
 		z-index: 1;
 	}
