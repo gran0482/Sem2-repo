@@ -792,10 +792,12 @@ h3.feedback{
 		display: none;
 	}
 	.logo-2{
-		max-width: 100%;
+		max-width: 10%;
 		height: auto;
 		visibility: visible;
+		align-self: center;
 	}
+	/* putting a flex box in the header to make sure the logo and text stay in the same place when re-sizing */
 	.header{
 		height: 225px;
 		margin-bottom: 750px;
