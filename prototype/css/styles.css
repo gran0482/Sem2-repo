@@ -1081,6 +1081,10 @@ h3.feedback{
 	.two-by-two:nth-child(4){
 		grid-area: four;
 	}
+	.image-text{
+		padding-top: 15px;
+		line-height: 30px;
+	}
 	.footer-text{
 		padding-top: 20px;
 		font-size: 1.75rem;
