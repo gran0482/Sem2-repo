@@ -604,8 +604,9 @@ textarea#text{
 	}
 	/* using a grid to match the provided mockup instead of keeping it vertical as in the mobile mockup*/
 	.banner{
+		height: 400px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
 	}
 	/* Using the civilian class and quote class to have them line up with each other (horizontally) */
 	.civilian{
@@ -616,14 +617,13 @@ textarea#text{
 		text-align: left;
 		position: relative;
 		top: 10px;
+		width: 100%;
 	}
 	/* Setting the height of the banner for the content to be able to fit inside of it */
-	.banner{
-		height: 400px;
-	}
 	img.civilian{
 		transform: scale(0.5);
 		align-self: center;
+		width: 60%;
 	}
 	/* adjusting the picture and text so it is in the lined up in the center of the page */
 	.neighbourhood, .local-text{
