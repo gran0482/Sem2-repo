@@ -182,7 +182,7 @@ h1{
 	text-align: center;
 	position: relative;
 	top: 200px;
-	color: white
+	color: white;
 }
 /* positioning the intro text to be in the center of the background image */
 .welcome-text{
@@ -950,8 +950,9 @@ h3.feedback{
 	.menu-about-h1{
 		position: absolute;
 		top: 600px;
-		width: 80%;
-		/* left: 750px; */
+		left: 0px;
+		text-align: center;
+		width: 100%; 
 		color: white;
 		z-index: 1;
 	}
