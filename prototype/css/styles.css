@@ -776,10 +776,9 @@ h3.feedback{
 @media screen and (min-width: 1025px) and (max-width: 2000px){
 	/* making logo 1 hidden and logo 2 visible */
 	.logo{
-		width: 75%;
-		height: auto;
-		padding-left: 60px;
 		visibility: hidden;
+		display: flex;
+		display: none;
 	}
 	.logo-2{
 		max-width: 100%;
