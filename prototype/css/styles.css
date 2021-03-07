@@ -688,7 +688,7 @@ textarea#text{
 /* adjusting the heights of the image so they line up with the other images */
 .owner{
 	width: auto;
-	height: 332px;
+	height: auto;
 	object-fit: cover;
 }
 .employee{
@@ -1028,8 +1028,8 @@ h3.feedback{
 	}
 	/* making the picture of one of the ceo line up with the other pictures */
 	.ceo{
-		width: 100%;
-   		height: 72%;
+		width: auto;
+   		height: auto;
     	object-fit: cover;
 	}
 	/* banner section between meeting our team and the bottom section and using flex to display it in a row*/
