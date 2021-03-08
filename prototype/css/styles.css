@@ -95,6 +95,17 @@ img.tropical-image{
     height: 375px;
     object-fit: cover;
 }
+/* adusting the width and height of the logo so it can stay in the header and hiding logo 2 so its not visible on mobile and tablet */
+.logo{
+	max-width: 100%;
+	height: 400px;
+	margin-left: 22%;
+}	
+.logo-2{
+	max-width: 100%;
+	height: auto;
+	visibility: hidden;
+}
 .tropical-image{
 	position: relative;
 	bottom: 350px;
@@ -146,19 +157,6 @@ img.tropical-image{
 /* fixing the height of the content so their is no white space */
 div.Welcome{	
 	height: 30px;
-}
-/* adusting the width and height of the logo so it can stay in the header and hiding logo 2 so its not visible on mobile and tablet */
-.logo{
-	max-width: 100%;
-	height: 400px;
-	/* position: absolute;
-	bottom: 475px; */
-	margin-right: 10px;
-}
-.logo-2{
-	max-width: 100%;
-	height: auto;
-	visibility: hidden;
 }
 /* navigation setion and making it vertical so it fits the mobile navigation styles*/
 a{
@@ -530,9 +528,7 @@ textarea#text{
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 	/* adjusting the size of the logo to match the desktop mockup */
 	.logo{
-		width: 50%;
-		margin-left: 250px;
-		margin-bottom: 50px;
+		margin-left: 310px;
 		visibility: visible;
 	}
 	.header{
