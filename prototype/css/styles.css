@@ -789,8 +789,8 @@ h3.feedback{
 /* ------------------------
 	Desktop styles - home
 ---------------------------*/
-@media screen and (min-width: 1025px) and (max-width: 1920px){
-	/* making logo 1 hidden and logo 2 visible */
+@media screen and (min-width: 1025px) and (max-width: 2200px){
+	/* making logo 1 hidden and logo 2 visible for the desktop version*/
 	.logo{
 		visibility: hidden;
 		display: flex;
@@ -801,7 +801,7 @@ h3.feedback{
 		visibility: visible;
 		align-self: center;
 	}
-	/* putting a flex box in the header to make sure the logo and text stay in the same place when re-sizing */
+	/* putting a flex box in the header to make sure the logo and text stay in the same place when re-sizing from mobile to tablet to desktop*/
 	.header{
 		height: 225px;
 		margin-bottom: 750px;
@@ -817,6 +817,7 @@ h3.feedback{
 		margin-top: 60px;
 		width: 80%;
 	}
+	/* making the navigation responsive in desktop */
 	.navigation{
 		display: flex;
 		justify-content: space-evenly;
@@ -836,6 +837,7 @@ h3.feedback{
     	height: 630px;
     	object-fit: cover;
 	}
+	/* making the background image responsive and to avoid it overlapping other elements on the page */
 	.tropical-image{
 		width: 2796px;
    		height: 600px;
@@ -864,7 +866,7 @@ h3.feedback{
    		height: 287px;
     	object-fit: cover;
 	}
-	/* Making a grid for the home of the little boy and ice cream so it matches the provided mockup*/
+	/* Making a grid for the home of the little boy and ice cream so it matches the mockup*/
 	.intro{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -898,7 +900,7 @@ h3.feedback{
 		padding-top: 10px;
 		text-align: left;
 	}
-	/* making adjustments to the content inside the banner so that it matches the mockup */
+	/* making adjustments to the content inside the banner so that it matches the mockup and the content stays inside the banner*/
 	.banner{
 		max-height: 390px;
 		display: flex;
@@ -936,7 +938,7 @@ h3.feedback{
 		padding-left: 65px;
 		padding-top: 45px;
 	}
-	/* makng the image into a rectangle and it can look visually appealing */
+	/* makng the image into a rectangle and it can look visually appealing on the desktop page */
 	.neighbourhood{
 		width:  826px;
    		height: 460px;
@@ -966,6 +968,7 @@ h3.feedback{
 	/* ------------------------
 		Desktop styles - about
 	---------------------------*/
+	/* placing the h1 in the same place in the about and menu page so it can be easier for the user to follow the webiste*/
 	.menu-about-h1{
 		position: absolute;
 		top: 600px;
@@ -1036,7 +1039,7 @@ h3.feedback{
 	.team:nth-child(8){
 		grid-area: eight;
 	}
-	/* adjusting the margins so its not right up against the sides */
+	/* /* adjusting the margins so each picture is not touching each other */
 	.our-team{
 		margin-left: 10px;
 		margin-right: 10px;
@@ -1063,7 +1066,7 @@ h3.feedback{
 		font-size: 2.5rem;
 		padding-top: 20px;
 	}
-	/* Styles inside the button and making it easier to read */
+	/* Styles inside the button and making it easier to read for the user*/
 	button.subscribe{
 		font-size: 2rem;
 		padding-right: 50px;
@@ -1110,7 +1113,7 @@ h3.feedback{
 		padding-top: 20px;
 		font-size: 1.75rem;
 	}
-	/* Setting a max-width and adding spacing on the top and bottom */
+	/* Setting a max-width and adding spacing on the top and bottom to avoid the grid touching the sides of the viewport*/
 	.newsletter-sample{
 		margin-top: 25px;
 		margin-bottom: 25px;
@@ -1122,7 +1125,7 @@ h3.feedback{
 	/* ------------------------
 		Desktop styles - menu
 	---------------------------*/
-	/* Creating a 4x3 grid for all twelve menu items  */
+	/* Creating a 4x3 grid for all twelve menu items to be able to make it easier to follow on the desktop*/
 	.menu-items{
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
