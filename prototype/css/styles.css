@@ -79,11 +79,18 @@ a{
 p, h4, .name{
 	font-family: 'Montserrat', sans-serif;
 }
+/* adding variables in to better control the colors on the webpage incase of a rebrand */
+:root{
+	--primary-color: #74B3CE;
+	--secondadry-color: #D7C0D8;
+	--heading-color: #FFFFFF;
+	--footer-color: #7AB7B4;
+}
 /* -----------------------------
 	Mobile Styles - Home
 -------------------------------*/
 .header{
-	background-color: #74B3CE;
+	background-color: var(--primary-color);
 	height: 800px;
 }
 .Oasis-scoops-header{
@@ -120,7 +127,7 @@ img.tropical-image{
 /* Scoop into your oasis button as a call to action button and to help leader users through the site*/
 /* Setting the general styles for the button and then positioning and animating it to match the mockup */
 .O-button{
-	background-color: #74B3CE;
+	background-color: var(--primary-color);
 	font-size: 20px;
 	border-radius: 72px;
 	padding-top: 30px;
@@ -152,7 +159,7 @@ img.tropical-image{
 	left: 50px;
 	text-align: center;
 	z-index: 1;
-	color: white;
+	color: var(--heading-color);
 }
 /* fixing the height of the content so their is no white space */
 div.Welcome{	
@@ -180,32 +187,20 @@ h1{
 	text-align: center;
 	position: relative;
 	top: 200px;
-	color: white;
+	color: var(--heading-color);
 }
 /* positioning the intro text to be in the center of the background image */
 .welcome-text{
 	position: relative;
 	top: 250px;
 	text-align: center;
-	color: white;
+	color: var(--heading-color);
 	font-size: 20px;
 }
 /* setting the max width of the image to make it resposnive throughout the different states */
 .tropical-image{
 	max-width: 100%;
 	height: auto;
-}
-/* having a call to action button on the home page to lead users through the website */
-button{
-	background-color: #74B3CE;
-	border: none;
-	padding: 20px;
-	border-radius: 72px;
-	color: #ADEBAD;
-	font-size: 1.3rem;
-	position: relative;
-	top: 300px;
-	left: 120px;
 }
 /* Setting the width and height for the ice cream and little boy image */
 .ice-cream, .little-boy{
@@ -224,7 +219,7 @@ button{
 }
 /* banner for civilian picture and quote to make a seperator between the intro and local section*/
 .banner{
-	background-color: #74B3CE;
+	background-color: var(--primary-color);
 	height: 735px;
 }
 /* making the image a width of 100% and adding a border around the image to go with the theme of Oasis Scoops */
@@ -232,7 +227,7 @@ button{
 	max-width: 100%;
 	height: auto;
 	border-radius: 100%;
-	border: 15px solid #D7C0D8;
+	border: 15px solid var(--secondadry-color);
 	transform: scale(0.6);
 	position: relative;
 	bottom: 30px; 
@@ -240,7 +235,7 @@ button{
 }
 /* centering the quote so it can line up with the image that is above */
 .quote{
-	color: white;
+	color: var(--heading-color);
 	padding-bottom: 25px;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -276,7 +271,7 @@ h2{
 }
 /* footer section and using flex to evenly space the social medias*/
 .footer{
-	background-color: #7AB7B4;
+	background-color: var(--footer-color);
 	padding-top: 35px;
 	padding-bottom: 35px;
 	display: flex;
@@ -302,7 +297,7 @@ img{
 	height: auto;
 }
 h1{
-	color: white;
+	color: var(--heading-color);
 }
 /* Centering the text for who what where to be visually appealing*/
 .w-w-w{
@@ -323,12 +318,12 @@ h1{
 }
 .our-team-banner{
 	text-align: center;
-	background-color: #74B3CE;
+	background-color: var(--primary-color);
 	padding: 50px;
 }
 /* adding a margin property for the images to be seperate from each other*/
 .team{
-	background-color: #D7C0D8;
+	background-color: var(--secondadry-color);
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 10px;
@@ -341,7 +336,7 @@ h4{
 }
 /* adding a background colour and centering the text in between the space to match the mockup */
 .newsletter{
-	background-color: #74B3CE;
+	background-color: var(--primary-color);
 	margin-top: 10px;
 	padding-bottom: 35px;
 	padding-top: 25px;
@@ -360,11 +355,18 @@ h4{
 	left: 175px;
 	transition: background-color .8s ease-out 100ms;
 }
+button{
+	border: none;
+	padding: 20px;
+	border-radius: 72px;
+	color: #ADEBAD;
+	font-size: 1.3rem;
+	position: relative;
+	top: 300px;
+	left: 120px;
+} 
 /* hover and active states for the transition */
-.subscribe:hover{
-	background-color: #ADEBAD;
-}
-.subscribe:active{
+.subscribe:hover, .subscribe:active{
 	background-color: #ADEBAD;
 }
 /* images and text for below the subscribe form, centering them on the page and making the responsive as well*/
@@ -387,7 +389,7 @@ h4{
 -------------------------------*/
 /* adding a background color to each menu item to make it look visually apealing to the user */
 .menu{
-	background-color: #D7C0D8;
+	background-color: var(--secondadry-color);
 	margin-bottom: 15px;
 	margin-left: 10px;
 	margin-top: 10px;
@@ -456,7 +458,7 @@ h4{
 }
 /* Section header for feedback form */
 .section-divider{
-	background-color: #74B3CE;
+	background-color: var(--primary-color);
 	padding: 35px;
 }
 /* aliging the text to the center and making the font size bigger so it looks visually appealing */
@@ -476,7 +478,7 @@ h3.feedback{
 }
 /* name title for the contact form and adjusting the size */
 .name{
-	color: #74B3CE;
+	color: var(--primary-color);
 	font-size: 25px;
 	font-weight: bold;
 	padding-top: 10px;
@@ -710,7 +712,6 @@ textarea#text{
 /* adjusting the size of the button and it can be more user friendly and easy to read */
 .subscribe{
 	margin-top: 25px;
-	/* margin-left: 125px; */
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 55px;
@@ -830,7 +831,7 @@ h3.feedback{
     	object-fit: cover;
 	}
 	.tropical-image{
-		width:  2796px;
+		width: 2796px;
    		height: 600px;
     	object-fit: cover;
 		position: relative;
@@ -853,7 +854,7 @@ h3.feedback{
 	}
 	/* Setting the width and height for the images to match the mockup and that they are the same size */
 	.ice-cream, .little-boy{
-		width:  710px;
+		width: 710px;
    		height: 287px;
     	object-fit: cover;
 	}
@@ -965,7 +966,7 @@ h3.feedback{
 		left: 0px;
 		text-align: center;
 		width: 100%; 
-		color: white;
+		color: var(--heading-color);
 		z-index: 1;
 	}
 	/* making a grid to display as three columns and one row so it is easier to read on the desktop version */
