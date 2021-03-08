@@ -706,6 +706,7 @@ textarea#text{
 	font-size: 3rem;
 	text-align: center;
 }
+/* wrapping the button and text when the webpage re-sizes */
 .newsletter{
 	display: flex;
 	flex-wrap: wrap;
@@ -713,7 +714,7 @@ textarea#text{
 	margin-bottom: 50px;
 	margin-top: 50px;
 }
-/* adjusting the size of the button and it can be more user friendly and easy to read */
+/* adjusting the size of the button and it can be more user friendly and easier to read */
 .subscribe{
 	margin-top: 25px;
 	padding-top: 25px;
@@ -725,14 +726,14 @@ textarea#text{
 	left: 0px;
 	display: flex;
 }
-/* making the two images the same size and making the square */
+/* making the images square to be visually appealing */
 .icecream-nuts{
 	width: 650px;
 	height: 650px;
 	object-fit: cover;
 	padding-left: 100px;
 }
-/* making the text the same length as the images that are above them */
+/* making the text the same length as the images*/
 .image-text{
 	padding-left: 100px;
 	padding-right: 130px;
@@ -750,7 +751,7 @@ textarea#text{
 	height: 400px;
     object-fit: cover;
 }
-/* Setting a margin so that the images are not touching each other */
+/* Setting a margin so that the images are not touching each other  and they have space inbetween them*/
 .menu{
 	margin-right: 10px;
 	margin-left: 18px;
@@ -761,8 +762,9 @@ textarea#text{
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
+/* making the text area the same length of the other feilds */
 textarea#text{
-	width: 99%;
+	width: 100%;
 	margin-top: 25px;
 }
 .button{
@@ -770,7 +772,7 @@ textarea#text{
 	padding-right: 50px;
 	padding-left: 40px;
 }
-/* Setting the font size of banner text */
+/* Setting the font size of banner text to make it easier to read for the user*/
 h3.feedback{
 	font-size: 3.5rem;
 	padding-bottom: 20px;
