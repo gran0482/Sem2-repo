@@ -49,18 +49,18 @@ table {
 /*------------------------------------------
         Custom styles and general styles
 -------------------------------------------*/
-/* Font for nav */
+/* /* Font for nav to match with the look and feel of Oasis scoops */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* font for h1 */
+/* font for h1 to match the theme of the website*/
 h1, h3{
 	font-family: 'Sansita Swashed', cursive;
 }
-/* font for the navigation */
+/* font for the navigation to match the theme of the website*/
 a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* hover and focus states for the whole html page*/
+/* hover and focus states and allow for user interactivity */
   /* visited link */
   a:visited {
 	color: #0B7A75;
@@ -75,11 +75,11 @@ a{
   a:active {
 	color: #0B7A75;
   }
-/* Setting the font for these elements */
+/* font for the paragraph, h4 and name class to match the theme of the website*/
 p, h4, .name{
 	font-family: 'Montserrat', sans-serif;
 }
-/* adding variables in to better control the colors on the webpage incase of a rebrand */
+/* adding variables better control the colors on the webpage incase of a rebrand */
 :root{
 	--primary-color: #74B3CE;
 	--secondadry-color: #D7C0D8;
@@ -93,6 +93,7 @@ p, h4, .name{
 	background-color: var(--primary-color);
 	height: 800px;
 }
+/* hiding the text in mobile and tablet because the logo acts as a header */
 .Oasis-scoops-header{
 	visibility: hidden;
 }
@@ -113,18 +114,19 @@ img.tropical-image{
 	height: auto;
 	visibility: hidden;
 }
+/* putting the tropical image below the header and nav to be able to follow a fluid design */
 .tropical-image{
 	position: relative;
 	bottom: 350px;
 }
-/* positing the h1 so it is ontop of the image */
+/* positing the h1 so it is ontop of the image and the image is behind the h1 */
 .home-h1{
 	position: absolute;
 	top: 800px;
 	left: 100px;
 	z-index: 1;
 } 
-/* Scoop into your oasis button as a call to action button and to help leader users through the site*/
+/* "Scoop into your oasis" button as a call to action button to help lead users through the site*/
 /* Setting the general styles for the button and then positioning and animating it to match the mockup */
 .O-button{
 	background-color: var(--primary-color);
@@ -161,10 +163,6 @@ img.tropical-image{
 	z-index: 1;
 	color: var(--heading-color);
 }
-/* fixing the height of the content so their is no white space */
-div.Welcome{	
-	height: 30px;
-}
 /* navigation setion and making it vertical so it fits the mobile navigation styles*/
 a{
 	text-decoration: none;
@@ -175,7 +173,7 @@ a{
 	padding-bottom: 30px;
 	color: #0B7A75;
 }
-/* having the navigation ontop of the background colour */
+/* having the navigation ontop of the background colour so it is easy to find for the user */
 .navigation{
 	position: relative;
 	bottom: 400px;
@@ -202,7 +200,11 @@ h1{
 	max-width: 100%;
 	height: auto;
 }
-/* Setting the width and height for the ice cream and little boy image */
+/* elimninating white space between the tropical image and the images and text below*/
+div.Welcome{	
+	height: 30px;
+}
+/* making the two images responsive */
 .ice-cream, .little-boy{
 	width: 85%;
 	height: auto;
@@ -210,7 +212,7 @@ h1{
 	padding-bottom: 5px;
 	padding-left: 35px;
 }
-/* centering the text below the ice cream and little boy text to be inline with the images */
+/* centering the text below the ice cream and little boy to make it look visually appealing */
 .intro-text{
 	text-align: center;
 	padding-left: 45px;
@@ -222,7 +224,7 @@ h1{
 	background-color: var(--primary-color);
 	height: 735px;
 }
-/* making the image a width of 100% and adding a border around the image to go with the theme of Oasis Scoops */
+/* adding a border around the image to match the theme of the website*/
 .civilian{
 	max-width: 100%;
 	height: auto;
@@ -246,7 +248,7 @@ h1{
 	text-align: center;
 	max-height: 735px;
 }
-/* local section and aligning it so it lines up to the center of the page*/
+/* local section and aligning it so it lines up to the center of the page to make it look visually appealing*/
 h2{
 	text-align: center;
 	padding-top: 10px;
@@ -291,11 +293,6 @@ h2{
 div.about{
 	height: 50px;
 }
-/* Seeting the max-width for the image to be responsive*/
-img{
-	max-width: 100%;
-	height: auto;
-}
 h1{
 	color: var(--heading-color);
 }
@@ -321,7 +318,12 @@ h1{
 	background-color: var(--primary-color);
 	padding: 50px;
 }
-/* adding a margin property for the images to be seperate from each other*/
+/* making the team images responsive*/
+img{
+	max-width: 100%;
+	height: auto;
+} 
+/* adding a margin property for the images to be seperate from each other as well to have a background color*/
 .team{
 	background-color: var(--secondadry-color);
 	margin-left: 5px;
@@ -365,11 +367,11 @@ button{
 	top: 300px;
 	left: 120px;
 } 
-/* hover and active states for the transition */
+/* keeping the same color for the hover and active states*/
 .subscribe:hover, .subscribe:active{
 	background-color: #ADEBAD;
 }
-/* images and text for below the subscribe form, centering them on the page and making the responsive as well*/
+/* images and text for below the subscribe form, centering them on the page to make it look visually appealing and making the responsive as well*/
 .icecream-nuts{
 	padding-top: 25px;
 	padding-bottom: 10px;
@@ -378,7 +380,7 @@ button{
 	padding-top: 15px;
 	padding-left: 35px;
 }
-/* filler text below the images and lining the text up with the images*/
+/* filler text below the images and lining the text up with the images */
 .image-text{
 	padding-left: 35px;
 	padding-right: 35px;
@@ -456,7 +458,7 @@ h4{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-/* Section header for feedback form */
+/* Section header to divide the menu and feedback form */
 .section-divider{
 	background-color: var(--primary-color);
 	padding: 35px;
@@ -476,7 +478,7 @@ h3.feedback{
 	padding-left: 15px;
 	padding-right: 15px;
 }
-/* name title for the contact form and adjusting the size */
+/* name title for the contact form for the user to know where to put their first and last name */
 .name{
 	color: var(--primary-color);
 	font-size: 25px;
@@ -484,13 +486,13 @@ h3.feedback{
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
-/* First and last name form and adjusting the width and heght of the form*/
+/* making the width fill the viewport  */
 .fl-name{
 	width: 100%;
 	height: 33px;
 	border: 3px solid #7AB7B4;
 }
-/* aliging the text box with the other form feilds */
+/* aliging the text box with the other form feilds and alligning with the viewport */
 textarea#text{
 	width: 100%;
 	height: 100px;
@@ -510,7 +512,7 @@ textarea#text{
 	margin-bottom: 45px;
 	margin-top: 25px;
 }
-/* adding an animation property to scale up when the user is hovering over the button */
+/* adding an animation property to scale up when the user is hovering over the button to make it more interactive */
 .button:hover{
 	animation-name: submit;
 	animation-duration: 2s;
@@ -533,17 +535,19 @@ textarea#text{
 		margin-left: 310px;
 		visibility: visible;
 	}
+	/* adjusting the height for the logo to be able to stay in the header */
 	.header{
 		height: 350px;
 		margin-bottom: 750px;
 	}
-	/* centering the menu to match the mockup  and to have it displayed horizontally on the page*/
+	/* centering the menu to match the mockup and to have it displayed horizontally on the page*/
 	a{
 		display: inline;
 		padding-left: 125px;
 		position: relative;
 		bottom: 325px;
 	}	
+	/* making the menu responsive by using flex */
 	.navigation{
 		display: flex;
 		justify-content: space-evenly;
@@ -591,7 +595,7 @@ textarea#text{
 		50%  { transform: translateY(-150px); }
 		100% { transform: translateY(0); }
 	}
-	/* adjusting the padding left and right to match the provided mockup and so it is inline with the images*/
+	/* adjusting the padding left and right to match the mockup and so it is inline with the images*/
 	.ice-cream, .little-boy{
 		padding-left: 65px;
 	}
@@ -600,7 +604,7 @@ textarea#text{
 		padding-right: 65px;
 		text-align: left;
 	}
-	/* using a grid to match the provided mockup instead of keeping it vertical as in the mobile mockup*/
+	/* /* using a flex to make it horizontal instead of vertical */
 	.banner{
 		height: 400px;
 		display: flex;
@@ -611,7 +615,7 @@ textarea#text{
 		margin-top: 50px;
 	}
 	.quote{
-		padding-top: 50px;
+		padding-top: 40px;
 		text-align: left;
 		position: relative;
 		top: 10px;
