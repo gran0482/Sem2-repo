@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="icons" href="icons/scoop-icon.ico" type="image/x-icon">
 </head>
+<body>
 <!-- header section containing the two logos used for this website -->
 <header class="header">
-    <img src="logos/The Content-04 copy.png" alt="" class="logo">
-    <img src="logos/The Content-05 copy.png" alt="" class="logo-2">
+    <img src="logos/TheContent-04copy.png" alt="" class="logo">
+    <img src="logos/TheContent-05copy.png" alt="" class="logo-2">
     <h2 class="Oasis-scoops-header">Oasis Scoops</h2>
 </header>
 <!-- Navigation for the website -->
-<section>
+<div>
     <nav class="navigation">
         <a href="home.html">Home</a>
         <a href="about.html">About</a>
@@ -29,8 +30,7 @@
         <h1 class="menu-about-h1">Menu</h1>
         <img src="images/tropical-fiji-island-4-1408384.jpg" alt="tropical-island" class="tropical-image">
     </div>
-</section>
-<body>
+</div>
     <!-- creating a grid for all the menu items the Oasis Scoops has to offer -->
     <section class="menu-items">
         <div class="menu">
@@ -46,15 +46,15 @@
             <h4 class="centering">Caramel Macchiato</h4>
         </div>
         <div class="menu">
-            <img src="menu-items/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="chocolate"class="menu-image">
+            <img src="menu-items/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="chocolate" class="menu-image">
             <h4 class="centering">3 Scoops of Happiness</h4>
         </div>
         <div class="menu">
-            <img src="menu-items/nadine-primeau-BLx1Jx8wMig-unsplash.jpg" alt="caramel-icecream"class="menu-image">
+            <img src="menu-items/nadine-primeau-BLx1Jx8wMig-unsplash.jpg" alt="caramel-icecream" class="menu-image">
             <h4 class="centering">Caramel</h4>
         </div>
         <div class="menu">
-            <img src="menu-items/elza-kurbanova-NEab1U1FfKM-unsplash.jpg" alt="ice-creamcone"class="menu-image">
+            <img src="menu-items/elza-kurbanova-NEab1U1FfKM-unsplash.jpg" alt="ice-creamcone" class="menu-image">
             <h4 class="centering">Chocolate and Rocky Road</h4>
         </div>
         <div class="menu">
@@ -88,16 +88,16 @@
         <p class="feedback">We value your feedback</p>
     </div>
     <!-- feedback form to allow the users to provide feedback -->
-    <section class="feedback-form">
-        <form action="" class="form">
+    <div class="feedback-form">
+        <form action="send" class="form">
             <label for="fname" class="name">First name</label>
             <input type="text" id="fname" name="fname" value="First" class="fl-name">
             <label for="lname" class="name">Last name</label>
             <input type="text" id="lname" name="lname" value="Last" class="fl-name">
-            <textarea id="text" name="textarea" value="place your feedback here" class="feedback-textarea"> Place your feedback here</textarea>
+            <textarea id="text" name="textarea" class="feedback-textarea"> Place your feedback here</textarea>
             <input type="submit" value="Submit" class="button">
           </form> 
-    </section>
+    </div>
     <!-- footer section to link all the social medias -->
     <footer class="footer">
         <img src="icons/twitter.svg" alt="twitter-logo" class="logo-footer">

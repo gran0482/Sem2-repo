@@ -610,10 +610,7 @@ textarea#text{
 		display: flex;
 		justify-content: flex-start;
 	}
-	/* Using the civilian class and quote class to have them line up with each other (horizontally) */
-	.civilian{
-		margin-top: 50px;
-	}
+	/* Using the quote class to have the image and the quote line up with each other (horizontally) */
 	.quote{
 		padding-top: 40px;
 		text-align: left;
