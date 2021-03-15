@@ -58,17 +58,17 @@ a{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* hover and focus states and allow for user interactivity */
-  /* visited link */
+  /* visited link to let users know they have visited that link already*/
   a:visited {
 	color: #0B7A75;
   }
   
-  /* mouse over link */
+  /* Hover states to let the user know they are on the naviagtion*/
   a:hover {
 	color: #D7C0D8;
   }
   
-  /* selected link */
+  /* selected states to let users know they have selected the link*/
   a:active {
 	color: #0B7A75;
   }
@@ -86,6 +86,7 @@ p, h4, .name{
 /* -----------------------------
 	Mobile Styles - Home
 -------------------------------*/
+/* Making sure the blue background has a height so it can go behind the logo and navigation */
 .header{
 	background-color: var(--primary-color);
 	height: 800px;
@@ -94,7 +95,7 @@ p, h4, .name{
 .Oasis-scoops-header{
 	visibility: hidden;
 }
-/* styling the tropical image to make responsive */
+/* styling the tropical image to make responsive across all 3 states*/
 img.tropical-image{
 	width: 100%;
     height: 375px;
@@ -116,7 +117,7 @@ img.tropical-image{
 	position: relative;
 	bottom: 350px;
 }
-/* positing the h1 so it is ontop of the image and the image is behind the h1 */
+/* positing the h1 so it is ontop of the image to give the effect of a background image */
 .home-h1{
 	position: absolute;
 	top: 800px;
@@ -124,7 +125,7 @@ img.tropical-image{
 	z-index: 1;
 } 
 /* "Scoop into your oasis" button as a call to action button to help lead users through the site*/
-/* Setting the general styles for the button and then positioning and animating it to match the mockup */
+/* Setting the general styles for the button and then positioning and animating it to increase the user experience of the website*/
 .O-button{
 	background-color: var(--primary-color);
 	font-size: 20px;
@@ -141,7 +142,7 @@ img.tropical-image{
     animation-iteration-count: infinite;
     transform-origin: bottom;
 }
-/* adding an animation to make the button bounce and to make it more interactive for the user */
+/* adding an animation to make the button bounce and to make it more interactivity for the user */
 .O-button:hover{
 	animation-name: bounce;
 	animation-timing-function: ease-in-out;
@@ -151,7 +152,7 @@ img.tropical-image{
   50%  { transform: translateY(-40px);}
   100% { transform: translateY(0); }
 }
-/* making the "welcome" text be ontop of the background image and to make it look visually appealing*/
+/* making the "welcome" text be ontop of the background image and to make it look visually appealing for the user*/
 .welcometext{
 	position: absolute;
 	top: 890px;
@@ -160,7 +161,7 @@ img.tropical-image{
 	z-index: 1;
 	color: var(--heading-color);
 }
-/* navigation setion and making it vertical so it fits the mobile navigation styles*/
+/* making the navigation vertical so it fits the mobile navigation styles and is easy to read for the user*/
 a{
 	text-decoration: none;
 	font-weight: bold;
@@ -170,7 +171,7 @@ a{
 	padding-bottom: 30px;
 	color: #0B7A75;
 }
-/* having the navigation ontop of the background colour so it is easy to find for the user */
+/* positioning the navigation ontop of the background colour so it is easy to find and read for the user */
 .navigation{
 	position: relative;
 	bottom: 400px;
@@ -197,11 +198,11 @@ h1{
 	max-width: 100%;
 	height: auto;
 }
-/* elimninating white space between the tropical image and the images and text below*/
+/* elimninating white space between the tropical image and the content below  */
 div.Welcome{	
 	height: 30px;
 }
-/* making the two images responsive */
+/* making the two images responsive through the different states */
 .ice-cream, .little-boy{
 	width: 85%;
 	height: auto;
@@ -245,7 +246,7 @@ div.Welcome{
 	text-align: center;
 	max-height: 735px;
 }
-/* local section and aligning it so it lines up to the center of the page to make it look visually appealing*/
+/* local section and aligning it so it lines up to the center of the page to make it can ook visually appealing*/
 h2{
 	text-align: center;
 	padding-top: 10px;
@@ -301,6 +302,7 @@ h1{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+/* Centering the group of who what where to be in the middle of the page */
 .who-what-where{
 	padding-left: 25px;
 	padding-right: 25px;
@@ -315,7 +317,7 @@ h1{
 	background-color: var(--primary-color);
 	padding: 50px;
 }
-/* making the team images responsive*/
+/* making the team images responsive through the three states*/
 img{
 	max-width: 100%;
 	height: auto;
@@ -340,7 +342,7 @@ h4{
 	padding-bottom: 35px;
 	padding-top: 25px;
 }
-/* Centering the text with the banner */
+/* Centering the text insdie the banner to look visually appealing */
 .keep-up{
 	text-align: center;
 	font-size: 2rem;
@@ -368,7 +370,7 @@ button{
 .subscribe:hover, .subscribe:active{
 	background-color: #ADEBAD;
 }
-/* images and text for below the subscribe form, centering them on the page to make it look visually appealing and making the responsive as well*/
+/* images and text for below the subscribe button, centering them on the page to make it look visually appealing and making the responsive as well*/
 .icecream-nuts{
 	padding-top: 25px;
 	padding-bottom: 10px;
@@ -377,7 +379,7 @@ button{
 	padding-top: 15px;
 	padding-left: 35px;
 }
-/* filler text below the images and lining the text up with the images */
+/* filler text below the images and lining the text up with the images to be visually appealing */
 .image-text{
 	padding-left: 35px;
 	padding-right: 35px;
@@ -386,7 +388,7 @@ button{
 /* -----------------------------
 	Mobile Styles - Menu
 -------------------------------*/
-/* adding a background color to each menu item to make it look visually apealing to the user */
+/* adding a background color to each menu item to make it look visually apealing to the user and so each menu item is easy to read*/
 .menu{
 	background-color: var(--secondadry-color);
 	margin-bottom: 15px;
@@ -450,7 +452,7 @@ button{
     height: 245px;
     object-fit: cover;
 }
-/* Centering h4 in the container to center it in the banner as well*/
+/* Centering h4 in the container to be visually apealing and to be in the center below the images*/
 h4{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -464,11 +466,12 @@ h4{
 .feedback{
 	text-align: center;
 }
+/* making the text below the title easier to read for the user */
 h3.feedback{
 	font-size: 2.5rem;
 	padding-bottom: 10px;
 }
-/* Changing and ajdusting form content and putting it in a colunm*/
+/* Changing and ajdusting form content and putting it in a colunm to allow for better flow*/
 .form{
 	display: flex;
 	flex-direction: column;
@@ -483,7 +486,7 @@ h3.feedback{
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
-/* making the width fill the viewport  */
+/* making the width of the feilds fill the viewport  */
 .fl-name{
 	width: 100%;
 	height: 33px;
@@ -525,7 +528,7 @@ textarea#text{
 /*-----------------------
 	Tablet styles - home
  ------------------------*/
- /* Setting a media queiry for the tablet styles */
+ /* Setting a media queiry for the tablet styles and to be responsive */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 	/* adjusting the size of the logo to match the desktop mockup */
 	.logo{
@@ -537,7 +540,7 @@ textarea#text{
 		height: 350px;
 		margin-bottom: 750px;
 	}
-	/* centering the menu to match the mockup and to have it displayed horizontally on the page*/
+	/* centering the navigation to match the mockup and to have it displayed horizontally on the page*/
 	a{
 		display: inline;
 		padding-left: 125px;
@@ -553,12 +556,13 @@ textarea#text{
 		bottom: 400px;
 		right: 60px;
 	}
-	/* setting the opacity to match the mockup and setting the height to prevent it from overlapping other elements*/
+	/* Setting the height of the image to prevent it from being to big on the webpage */
 	img.tropical-image{
 		width: 100%;
     	height: 708px;
     	object-fit: cover;
 	}
+	/* Setting the opacity to avoid the user being distracted to much by the background image */
 	.tropical-image{
 		position: absolute;
 		top: 450px;
@@ -578,7 +582,7 @@ textarea#text{
 		position: absolute;
 		top: 650px;
 	}
-	/* styling the home button to be different from the mobile styles  */
+	/* styling the home button to be different from the mobile styles button for it to be progressively enhanced*/
 	.O-button{
 		font-size: 2rem;
 		margin-left: 160px;
@@ -601,7 +605,7 @@ textarea#text{
 		padding-right: 65px;
 		text-align: left;
 	}
-	/* /* using a flex to make it horizontal instead of vertical */
+	 /* using a flex to make the content inside the banner horizontal instead of vertical */
 	.banner{
 		height: 400px;
 		display: flex;
@@ -615,7 +619,7 @@ textarea#text{
 		top: 10px;
 		width: 100%;
 	}
-	/* Setting the height of the banner for the content to be able to fit inside of it */
+	/* Setting the height of the banner for the contents to be able to fit inside of it */
 	img.civilian{
 		transform: scale(0.5);
 		align-self: center;
@@ -640,7 +644,7 @@ textarea#text{
 /*----------------------------
 	Tablet styles - about us
  ----------------------------*/
- /* Header section and making it match the mockup*/
+ /* Header section and making it the h1 stand out from the background*/
 .menu-about-h1{
 	font-size: 6rem;
 	position: absolute;
@@ -684,7 +688,7 @@ textarea#text{
 .team:nth-child(8){
 	grid-area: eight;
 }
-/* adjusting the heights of the image so they line up with the other images */
+/* adjusting the heights of the image so they line up with the other images and it can look visually appealing */
 .owner{
 	width: auto;
 	height: auto;
@@ -700,7 +704,7 @@ textarea#text{
 	font-size: 3rem;
 	text-align: center;
 }
-/* wrapping the button and text when the webpage re-sizes */
+/* wrapping the button and text for when the webpage re-sizes */
 .newsletter{
 	display: flex;
 	flex-wrap: wrap;
@@ -720,19 +724,19 @@ textarea#text{
 	left: 0px;
 	display: flex;
 }
-/* making the images square to be visually appealing */
+/* making the images square to be visually appealing to the user*/
 .icecream-nuts{
 	width: 650px;
 	height: 650px;
 	object-fit: cover;
 	padding-left: 100px;
 }
-/* making the text the same length as the images*/
+/* Adding padding on the left to line up to the left side of the image  */
 .image-text{
 	padding-left: 100px;
 	padding-right: 130px;
 }
-/* adding padding to the bottom of the container so it is not touching the footer and their is breathing space */
+/* adding padding to the bottom of the container so the content is not touching the footer and their is breathing space */
 .newsletter-sample{
 	padding-bottom: 15px;
 }
@@ -745,13 +749,13 @@ textarea#text{
 	height: 400px;
     object-fit: cover;
 }
-/* Setting a margin so that the images are not touching each other  and they have space inbetween them*/
+/* Setting a margin so that the images are not touching each other and they have breathing space*/
 .menu{
 	margin-right: 10px;
 	margin-left: 18px;
 	padding-bottom: 15px;
 }
-/* bottom form to match the mockup and making each feild line up with each other*/
+/* bottom form to match the mockup and making each feild is lined up with each other*/
 .name{
 	padding-top: 15px;
 	padding-bottom: 10px;
@@ -761,6 +765,7 @@ textarea#text{
 	width: 100%;
 	margin-top: 25px;
 }
+/* adding space in between the form and the button */
 .button{
 	margin-top: 20px;
 	padding-right: 50px;
@@ -783,6 +788,7 @@ h3.feedback{
 /* ------------------------
 	Desktop styles - home
 ---------------------------*/
+/* adding a media query to allow the website to be responsive */
 @media screen and (min-width: 1025px) and (max-width: 2200px){
 	/* making logo 1 hidden and logo 2 visible for the desktop version*/
 	.logo{
@@ -845,6 +851,7 @@ h3.feedback{
 		font-size: 6rem;
 		padding-left: 25px;
 	}
+	/* having the button sit below the h1 to look visually appealing */
 	.intro-text-button{
 		position: relative;
 		bottom: 1350px;
@@ -881,7 +888,6 @@ h3.feedback{
 	.sccop-boy:nth-child(4){
 		grid-area: four;
 	}
-	/* putting the grid in the middle of the page and increasing the line height to fill up the space */
 	.intro{
 		max-width: 80%;
 		padding-left: 120px; 
@@ -932,7 +938,7 @@ h3.feedback{
 		padding-left: 65px;
 		padding-top: 45px;
 	}
-	/* makng the image into a rectangle and it can look visually appealing on the desktop page */
+	/* makng the image into a rectangle and it can look visually appealing on the desktop version*/
 	.neighbourhood{
 		width:  826px;
    		height: 460px;
@@ -1000,7 +1006,7 @@ h3.feedback{
 		left: 100px;
 		max-width: 85%;
 	}
-	/* Making a grid for our team and to match the mockup and it is easier to view on the desktop*/
+	/* Making a 4 by 2 grid for our team and to match the mockup and it is easier to view on the desktop version*/
 	.our-team{
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -1033,7 +1039,7 @@ h3.feedback{
 	.team:nth-child(8){
 		grid-area: eight;
 	}
-	/* /* adjusting the margins so each picture is not touching each other */
+	/* adjusting the margins so each picture is not touching each other */
 	.our-team{
 		margin-left: 10px;
 		margin-right: 10px;
@@ -1067,7 +1073,7 @@ h3.feedback{
 		padding-left: 50px; 
 		margin-bottom: 10px;
 	}	
-	/* styles outside of the button */
+	/* styles outside of the button and using flex to allow it to wrap when sizing from desktop to tablet*/
 	.subscribe{
 		display: flex;
 	}
@@ -1077,7 +1083,7 @@ h3.feedback{
    		height: 298px;
     	object-fit: cover;
 	}
-	/* creating a grid to re-create the mockup */
+	/* creating a grid to re-create the mockup and to make it look visually appealing to the user*/
 	.newsletter-sample{
 		display: grid;
 		grid-gap: 5px;
@@ -1168,7 +1174,7 @@ h3.feedback{
 	.menu:nth-child(12){
 		grid-area: twelve;
 	}
-	/* adding spacing inbetween the menu items so they are not touching each other */
+	/* adding spacing inbetween the menu items so they are not touching each other for the desktop version*/
 	.menu-items{
 		margin-bottom: 20px;
 		margin-left: 10px;
@@ -1191,6 +1197,3 @@ h3.feedback{
 		margin-top: 10px
 	}
 }
-
-
-	
